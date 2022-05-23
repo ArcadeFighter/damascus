@@ -51,7 +51,7 @@
               <p>Hledáš jiný trackery na kamufláže? 😎</p>
 
               <div class="buttons">
-                <a href="https://coldwar.arcadex.cz/>
+                <a href="https://coldwar.arcadex.cz/">
                   <img :src="require(`./assets/coldwar.png`)">
                   <span>Cold War</span>
                 </a>
