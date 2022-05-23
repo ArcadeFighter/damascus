@@ -238,7 +238,7 @@ const defaultFilters = {
 }
 
 function challengeReq(strings, count, attachCount) {
-  let attachPrefix = attachCount !== undefined ? `Using ${attachCount} Attachments, ` : '';
+  let attachPrefix = attachCount !== undefined ? `S nasazenými ${attachCount} Attachmenty, ` : '';
   return `${attachPrefix}${strings[0]} ${count} ${strings[1]}`;
 }
 
