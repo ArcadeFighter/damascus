@@ -243,29 +243,29 @@ function challengeReq(strings, count, attachCount) {
 }
 
 const challengeTypes = {
-  adsNoStock: ['Get', 'Aiming Down Sight Kills with the No Stock attachment option selected'],
-  adsFoldedStock: ['Get', 'Aiming Down Sight Kills with the Folded Stock selected'],
-  adsLaser: ['Get', 'Kills while Aiming Down Sights and using a Laser attachment'],
-  scoutLongshot: ['Get', 'Longshot Kills while using the Scout Combat Optic'],
-  behindEnemy: ['Get', 'Kills while behind the enemy'],
-  akimboReflex: ['Get', 'Kills using the Akimbo weapon perk and a Reflex Optic'],
+  adsNoStock: ['Get', 'Aiming Down Sight Killù with the No Stock attachment option selected'],
+  adsFoldedStock: ['Get', 'Aiming Down Sight Killù with the Folded Stock selected'],
+  adsLaser: ['Get', 'Killù while Aiming Down Sights and using a Laser attachment'],
+  scoutLongshot: ['Get', 'Longshot Killù while using the Scout Combat Optic'],
+  behindEnemy: ['Get', 'Killù while behind the enemy'],
+  akimboReflex: ['Get', 'Killù using the Akimbo weapon perk and a Reflex Optic'],
   aerialVehicle: ['Destroy', 'Aerial Vehicles'],
-  sliding: ['Get', 'Kills while sliding'],
-  quickscope: ['Get', 'Quickscope Kills'],
-  buzzkill: ['Get', 'Buzzkills (End Enemy Streaks)'],
-  crouching: ['Get', 'Kills while crouching'],
-  inSmoke: ['Get', 'Kills while in smoke'],
-  scoutOptic: ['Get', 'Kills while using a Scout Combat Optic'],
-  sniperScope: ['Get', 'Kills while using a sniper scope'], // not capitalised in-game
-  hipfire: ['Get', 'Hipfire Kills'],
-  longshot: ['Get', 'Longshot Kills'],
-  pointBlankHeadshot: ['Get', 'Point Blank Headshot Kills'],
-  slidingHeadshot: ['Get', 'Headshot Kills while sliding'],
-  inSmokeHeadshot: ['Get', 'Headshot Kills while in smoke'],
-  crouchingHeadshot: ['Get', 'Headshot Kills while crouching'],
-  mountedLongshot: ['Get', 'Mounted Longshot Kills'],
-  threeStreakTracker: ['Get', 'Kills without dying and while using the Tracker Perk 10 times'],
-  doubleKillTracker: ['Get', 'Double Kills while using the Tracker Perk'],
+  sliding: ['Get', 'Killù while sliding'],
+  quickscope: ['Get', 'Quickscope Killù'],
+  buzzkill: ['Get', 'BuzzKillù (End Enemy Streaks)'],
+  crouching: ['Get', 'Killù while crouching'],
+  inSmoke: ['Get', 'Killù while in smoke'],
+  scoutOptic: ['Get', 'Killù while using a Scout Combat Optic'],
+  sniperScope: ['Get', 'Killù while using a sniper scope'], // not capitalised in-game
+  hipfire: ['Get', 'Hipfire Killù'],
+  longshot: ['Get', 'Longshot Killù'],
+  pointBlankHeadshot: ['Get', 'Point Blank Headshot Killù'],
+  slidingHeadshot: ['Get', 'Headshot Killù while sliding'],
+  inSmokeHeadshot: ['Get', 'Headshot Killù while in smoke'],
+  crouchingHeadshot: ['Get', 'Headshot Killù while crouching'],
+  mountedLongshot: ['Get', 'Mounted Longshot Killù'],
+  threeStreakTracker: ['Get', 'Killù without dying and while using the Tracker Perk 10 times'],
+  doubleKillTracker: ['Get', 'Double Killù while using the Tracker Perk'],
 }
 
 export default new Vuex.Store({
@@ -281,260 +281,260 @@ export default new Vuex.Store({
       {
         name: 'Spray Paint',
         requirements: {
-          'Assault Rifle': '800 Kills',
+          'Assault Rifle': '800 Killù',
           'Submachine Gun': {
-            'AUG': '500 Kills',
-            'P90': '500 Kills',
-            'MP5': '500 Kills',
-            'Uzi': '500 Kills',
-            'PP19 Bizon': '500 Kills',
-            'MP7': '500 Kills',
-            'Striker 45': '500 Kills',
-            'Fennec': '250 Kills',
-            'ISO': '250 Kills',
-            'CX-9': '250 Kills'
+            'AUG': '500 Killù',
+            'P90': '500 Killù',
+            'MP5': '500 Killù',
+            'Uzi': '500 Killù',
+            'PP19 Bizon': '500 Killù',
+            'MP7': '500 Killù',
+            'Striker 45': '500 Killù',
+            'Fennec': '250 Killù',
+            'ISO': '250 Killù',
+            'CX-9': '250 Killù'
           },
-          'Brokovnice': '400 Kills',
-          'Light Machine Gun': '525 Kills',
-          'Marksman Rifle': '450 Kills',
-          'Sniper Rifle': '450 Kills',
-          'Melee': '200 Kills',
-          'Pistole': '250 Kills',
-          'Launchery': '125 Kills'
+          'Brokovnice': '400 Killù',
+          'Light Machine Gun': '525 Killù',
+          'Marksman Rifle': '450 Killù',
+          'Sniper Rifle': '450 Killù',
+          'Melee': '200 Killù',
+          'Pistole': '250 Killù',
+          'Launchery': '125 Killù'
         }
       },
       {
         name: 'Woodland',
         requirements: {
-          'Assault Rifle': '125 Headshot Kills',
+          'Assault Rifle': '125 Headshot Killù',
           'Submachine Gun': {
-            'AUG': '100 Headshot Kills',
-            'P90': '100 Headshot Kills',
-            'MP5': '100 Headshot Kills',
-            'Uzi': '100 Headshot Kills',
-            'PP19 Bizon': '100 Headshot Kills',
-            'MP7': '100 Headshot Kills',
-            'Striker 45': '100 Headshot Kills',
-            'Fennec': '50 Headshot Kills',
-            'ISO': '50 Headshot Kills',
-            'CX-9': '50 Headshot Kills'
+            'AUG': '100 Headshot Killù',
+            'P90': '100 Headshot Killù',
+            'MP5': '100 Headshot Killù',
+            'Uzi': '100 Headshot Killù',
+            'PP19 Bizon': '100 Headshot Killù',
+            'MP7': '100 Headshot Killù',
+            'Striker 45': '100 Headshot Killù',
+            'Fennec': '50 Headshot Killù',
+            'ISO': '50 Headshot Killù',
+            'CX-9': '50 Headshot Killù'
           },
-          'Brokovnice': '75 Crouching Kills',
-          'Light Machine Gun': '75 Headshot Kills',
-          'Marksman Rifle': '60 Headshot Kills',
-          'Sniper Rifle': '60 Headshot Kills',
-          'Melee': '50 Kills while injured',
-          'Pistole': '50 Headshot Kills',
-          'Launchery': '40 Attacker Kills'
+          'Brokovnice': '75 Crouching Killù',
+          'Light Machine Gun': '75 Headshot Killù',
+          'Marksman Rifle': '60 Headshot Killù',
+          'Sniper Rifle': '60 Headshot Killù',
+          'Melee': '50 Killù while injured',
+          'Pistole': '50 Headshot Killù',
+          'Launchery': '40 Attacker Killù'
         }
       },
       {
         name: 'Digital',
         requirements: {
-          'Assault Rifle': '160 Crouching Kills',
+          'Assault Rifle': '160 Crouching Killù',
           'Submachine Gun': {
-            'AUG': '110 Crouching Kills',
-            'P90': '110 Crouching Kills',
-            'MP5': '110 Crouching Kills',
-            'Uzi': '110 Crouching Kills',
-            'PP19 Bizon': '110 Crouching Kills',
-            'MP7': '110 Crouching Kills',
-            'Striker 45': '110 Crouching Kills',
-            'Fennec': '40 Crouching Kills',
-            'ISO': '40 Crouching Kills',
-            'CX-9': '40 Crouching Kills'
+            'AUG': '110 Crouching Killù',
+            'P90': '110 Crouching Killù',
+            'MP5': '110 Crouching Killù',
+            'Uzi': '110 Crouching Killù',
+            'PP19 Bizon': '110 Crouching Killù',
+            'MP7': '110 Crouching Killù',
+            'Striker 45': '110 Crouching Killù',
+            'Fennec': '40 Crouching Killù',
+            'ISO': '40 Crouching Killù',
+            'CX-9': '40 Crouching Killù'
           },
-          'Brokovnice': '75 Hipfire Kills',
-          'Light Machine Gun': '65 Crouching Kills',
-          'Marksman Rifle': '50 Crouching Kills',
-          'Sniper Rifle': '50 Crouching Kills',
-          'Melee': '50 Kills from behind',
-          'Pistole': '40 Crouching Kills',
-          'Launchery': '40 Defender Kills'
+          'Brokovnice': '75 Hipfire Killù',
+          'Light Machine Gun': '65 Crouching Killù',
+          'Marksman Rifle': '50 Crouching Killù',
+          'Sniper Rifle': '50 Crouching Killù',
+          'Melee': '50 Killù from behind',
+          'Pistole': '40 Crouching Killù',
+          'Launchery': '40 Defender Killù'
         }
       },
       {
         name: 'Dragon',
         requirements: {
-          'Assault Rifle': '75 Hipfire Kills',
+          'Assault Rifle': '75 Hipfire Killù',
           'Submachine Gun': {
-            'AUG': '100 Hipfire Kills',
-            'P90': '100 Hipfire Kills',
-            'MP5': '100 Hipfire Kills',
-            'Uzi': '100 Hipfire Kills',
-            'PP19 Bizon': '100 Hipfire Kills',
-            'MP7': '100 Hipfire Kills',
-            'Striker 45': '100 Hipfire Kills',
-            'Fennec': '30 Hipfire Kills',
-            'ISO': '30 Hipfire Kills',
-            'CX-9': '30 Hipfire Kills'
+            'AUG': '100 Hipfire Killù',
+            'P90': '100 Hipfire Killù',
+            'MP5': '100 Hipfire Killù',
+            'Uzi': '100 Hipfire Killù',
+            'PP19 Bizon': '100 Hipfire Killù',
+            'MP7': '100 Hipfire Killù',
+            'Striker 45': '100 Hipfire Killù',
+            'Fennec': '30 Hipfire Killù',
+            'ISO': '30 Hipfire Killù',
+            'CX-9': '30 Hipfire Killù'
           },
-          'Brokovnice': '50 Point Blank Kills',
-          'Light Machine Gun': '45 Hipfire Kills',
-          'Marksman Rifle': '50 One Shot Kills',
-          'Sniper Rifle': '50 One Shot Kills',
-          'Melee': '30 Kills while using Dead Silence',
-          'Pistole': '30 Hipfire Kills',
-          'Launchery': '75 Aerial Killstreaks Destroyed'
+          'Brokovnice': '50 Point Blank Killù',
+          'Light Machine Gun': '45 Hipfire Killù',
+          'Marksman Rifle': '50 One Shot Killù',
+          'Sniper Rifle': '50 One Shot Killù',
+          'Melee': '30 Killù while using Dead Silence',
+          'Pistole': '30 Hipfire Killù',
+          'Launchery': '75 Aerial Killùtreaks Destroyed'
         }
       },
       {
         name: 'Splinter',
         requirements: {
-          'Assault Rifle': '100 Longshot Kills',
+          'Assault Rifle': '100 Longshot Killù',
           'Submachine Gun': {
-            'AUG': '50 Longshot Kills',
-            'P90': '50 Longshot Kills',
-            'MP5': '50 Longshot Kills',
-            'Uzi': '50 Longshot Kills',
-            'PP19 Bizon': '50 Longshot Kills',
-            'MP7': '50 Longshot Kills',
-            'Striker 45': '50 Longshot Kills',
-            'Fennec': '30 Longshot Kills',
-            'ISO': '30 Longshot Kills',
-            'CX-9': '30 Longshot Kills'
+            'AUG': '50 Longshot Killù',
+            'P90': '50 Longshot Killù',
+            'MP5': '50 Longshot Killù',
+            'Uzi': '50 Longshot Killù',
+            'PP19 Bizon': '50 Longshot Killù',
+            'MP7': '50 Longshot Killù',
+            'Striker 45': '50 Longshot Killù',
+            'Fennec': '30 Longshot Killù',
+            'ISO': '30 Longshot Killù',
+            'CX-9': '30 Longshot Killù'
           },
           'Brokovnice': {
-            'Model 680': '50 Headshot Kills',
-            'R9-0': '50 Headshot Kills',
-            '725': '50 Longshot Kills',
-            'Origin 12': '50 Headshot Kills',
-            'VLK Rogue': '50 Headshot Kills',
-            'JAK-12': '50 Headshot Kills'
+            'Model 680': '50 Headshot Killù',
+            'R9-0': '50 Headshot Killù',
+            '725': '50 Longshot Killù',
+            'Origin 12': '50 Headshot Killù',
+            'VLK Rogue': '50 Headshot Killù',
+            'JAK-12': '50 Headshot Killù'
           },
-          'Light Machine Gun': '45 Longshot Kills',
+          'Light Machine Gun': '45 Longshot Killù',
           'Marksman Rifle': {
-            'EBR-14': '150 Kills while using all attachments',
-            'MK2 Carbine': '150 Kills while using all attachments',
-            'Kar98k': '150 Kills while using all attachments',
-            'Crossbow': '150 Kills while using all attachments',
-            'SKS': '150 Kills while using all attachments',
-            'SP-R 208': '50 Longshot Kills'
+            'EBR-14': '150 Killù while using all attachments',
+            'MK2 Carbine': '150 Killù while using all attachments',
+            'Kar98k': '150 Killù while using all attachments',
+            'Crossbow': '150 Killù while using all attachments',
+            'SKS': '150 Killù while using all attachments',
+            'SP-R 208': '50 Longshot Killù'
           },
-          'Sniper Rifle': '150 Kills while using all attachments',
-          'Melee': '50 Crouching Kills',
-          'Pistole': '30 Longshot Kills',
+          'Sniper Rifle': '150 Killù while using all attachments',
+          'Melee': '50 Crouching Killù',
+          'Pistole': '30 Longshot Killù',
           'Launchery': '75 Ground vehicles destroyed'
         }
       },
       {
         name: 'Topo',
         requirements: {
-          'Assault Rifle': '100 Mounted Kills',
+          'Assault Rifle': '100 Mounted Killù',
           'Submachine Gun': {
-            'AUG': '50 Mounted Kills',
-            'P90': '50 Mounted Kills',
-            'MP5': '50 Mounted Kills',
-            'Uzi': '50 Mounted Kills',
-            'PP19 Bizon': '50 Mounted Kills',
-            'MP7': '50 Mounted Kills',
-            'Striker 45': '50 Mounted Kills',
-            'Fennec': '25 Double Kills',
-            'ISO': '25 Double Kills',
-            'CX-9': '25 Double Kills'
+            'AUG': '50 Mounted Killù',
+            'P90': '50 Mounted Killù',
+            'MP5': '50 Mounted Killù',
+            'Uzi': '50 Mounted Killù',
+            'PP19 Bizon': '50 Mounted Killù',
+            'MP7': '50 Mounted Killù',
+            'Striker 45': '50 Mounted Killù',
+            'Fennec': '25 Double Killù',
+            'ISO': '25 Double Killù',
+            'CX-9': '25 Double Killù'
           },
-          'Brokovnice': '225 Kills while using all attachments',
-          'Light Machine Gun': '45 Mounted Kills',
+          'Brokovnice': '225 Killù while using all attachments',
+          'Light Machine Gun': '45 Mounted Killù',
           'Marksman Rifle': {
-            'EBR-14': '50 Longshot Kills',
-            'MK2 Carbine': '50 Longshot Kills',
-            'Kar98k': '50 Longshot Kills',
-            'Crossbow': '50 Longshot Kills',
-            'SKS': '25 Double Kills',
-            'SP-R 208': '25 Double Kills'
+            'EBR-14': '50 Longshot Killù',
+            'MK2 Carbine': '50 Longshot Killù',
+            'Kar98k': '50 Longshot Killù',
+            'Crossbow': '50 Longshot Killù',
+            'SKS': '25 Double Killù',
+            'SP-R 208': '25 Double Killù'
           },
-          'Sniper Rifle': '50 Longshot Kills',
+          'Sniper Rifle': '50 Longshot Killù',
           'Melee': {
             'Riot Shield': '25 2-streaks',
-            'Combat Knife': '25 Double Kills',
-            'Kali Sticks': '25 Double Kills',
-            'Dual Kodachis': '25 Double Kills'
+            'Combat Knife': '25 Double Killù',
+            'Kali Sticks': '25 Double Killù',
+            'Dual Kodachis': '25 Double Killù'
           },
-          'Pistole': '25 Double Kills',
-          'Launchery': '50 Equipment, killstreaks, or vehicles destroyed'
+          'Pistole': '25 Double Killù',
+          'Launchery': '50 Equipment, Killùtreaks, or vehicles destroyed'
         }
       },
       {
         name: 'Tiger',
         requirements: {
-          'Assault Rifle': '180 Kills while using all attachments',
+          'Assault Rifle': '180 Killù while using all attachments',
           'Submachine Gun': {
-            'AUG': '250 Kills while using all attachments',
-            'P90': '250 Kills while using all attachments',
-            'MP5': '250 Kills while using all attachments',
-            'Uzi': '250 Kills while using all attachments',
-            'PP19 Bizon': '250 Kills while using all attachments',
-            'MP7': '250 Kills while using all attachments',
-            'Striker 45': '250 Kills while using all attachments',
-            'Fennec': '110 Kills while using all attachments',
-            'ISO': '110 Kills while using all attachments',
-            'CX-9': '110 Kills while using all attachments'
+            'AUG': '250 Killù while using all attachments',
+            'P90': '250 Killù while using all attachments',
+            'MP5': '250 Killù while using all attachments',
+            'Uzi': '250 Killù while using all attachments',
+            'PP19 Bizon': '250 Killù while using all attachments',
+            'MP7': '250 Killù while using all attachments',
+            'Striker 45': '250 Killù while using all attachments',
+            'Fennec': '110 Killù while using all attachments',
+            'ISO': '110 Killù while using all attachments',
+            'CX-9': '110 Killù while using all attachments'
           },
-          'Brokovnice': '25 Double Kills',
-          'Light Machine Gun': '180 Kills while using all attachments',
+          'Brokovnice': '25 Double Killù',
+          'Light Machine Gun': '180 Killù while using all attachments',
           'Marksman Rifle': {
-            'EBR-14': '50 Mounted Kills',
-            'MK2 Carbine': '50 Mounted Kills',
-            'Kar98k': '50 Mounted Kills',
-            'Crossbow': '50 Mounted Kills',
-            'SKS': '50 Mounted Kills',
-            'SP-R 208': '150 Kills while using all attachments'
+            'EBR-14': '50 Mounted Killù',
+            'MK2 Carbine': '50 Mounted Killù',
+            'Kar98k': '50 Mounted Killù',
+            'Crossbow': '50 Mounted Killù',
+            'SKS': '50 Mounted Killù',
+            'SP-R 208': '150 Killù while using all attachments'
           },
-          'Sniper Rifle': '50 Mounted Kills',
+          'Sniper Rifle': '50 Mounted Killù',
           'Melee': {
-            'Riot Shield': '50 Kills near smoke',
-            'Combat Knife': '25 Kills near smoke',
-            'Kali Sticks': '50 Kills near smoke',
-            'Dual Kodachis': '50 Kills near smoke'
+            'Riot Shield': '50 Killù near smoke',
+            'Combat Knife': '25 Killù near smoke',
+            'Kali Sticks': '50 Killù near smoke',
+            'Dual Kodachis': '50 Killù near smoke'
           },
-          'Pistole': '110 Kills while using all attachments',
+          'Pistole': '110 Killù while using all attachments',
           'Launchery': '50 Supportstreaks destroyed'
         }
       },
       {
         name: 'Stripes',
         requirements: {
-          'Assault Rifle': '50 Kills shortly after reload',
+          'Assault Rifle': '50 Killù shortly after reload',
           'Submachine Gun': {
-            'AUG': '40 Kills shortly after reload',
-            'P90': '40 Kills shortly after reload',
-            'MP5': '40 Kills shortly after reload',
-            'Uzi': '40 Kills shortly after reload',
-            'PP19 Bizon': '40 Kills shortly after reload',
-            'MP7': '40 Kills shortly after reload',
-            'Striker 45': '40 Kills shortly after reload',
-            'Fennec': '25 Kills shortly after reload',
-            'ISO': '25 Kills shortly after reload',
-            'CX-9': '25 Kills shortly after reload'
+            'AUG': '40 Killù shortly after reload',
+            'P90': '40 Killù shortly after reload',
+            'MP5': '40 Killù shortly after reload',
+            'Uzi': '40 Killù shortly after reload',
+            'PP19 Bizon': '40 Killù shortly after reload',
+            'MP7': '40 Killù shortly after reload',
+            'Striker 45': '40 Killù shortly after reload',
+            'Fennec': '25 Killù shortly after reload',
+            'ISO': '25 Killù shortly after reload',
+            'CX-9': '25 Killù shortly after reload'
           },
-          'Brokovnice': '30 Kills shortly after reload',
-          'Light Machine Gun': '30 Double Kills',
+          'Brokovnice': '30 Killù shortly after reload',
+          'Light Machine Gun': '30 Double Killù',
           'Marksman Rifle': {
-            'EBR-14': '25 Double Kills',
-            'MK2 Carbine': '25 Double Kills',
-            'Kar98k': '25 Double Kills',
-            'Crossbow': '25 Double Kills',
-            'SKS': '25 Double Kills',
-            'SP-R 208': '50 Mounted Kills'
+            'EBR-14': '25 Double Killù',
+            'MK2 Carbine': '25 Double Killù',
+            'Kar98k': '25 Double Killù',
+            'Crossbow': '25 Double Killù',
+            'SKS': '25 Double Killù',
+            'SP-R 208': '50 Mounted Killù'
           },
-          'Sniper Rifle': '25 Double Kills',
-          'Melee': '10 Buzzkills',
-          'Pistole': '25 Kills shortly after reload',
-          'Launchery': '50 Killstreaks destroyed'
+          'Sniper Rifle': '25 Double Killù',
+          'Melee': '10 BuzzKillù',
+          'Pistole': '25 Killù shortly after reload',
+          'Launchery': '50 Killùtreaks destroyed'
         }
       },
       {
         name: 'Reptile',
         requirements: {
-          'Assault Rifle': '110 Kills while using no attachments',
-          'Submachine Gun': '75 Kills while using no attachments',
-          'Brokovnice': '110 Kills while using no attachments',
-          'Light Machine Gun': '75 Kills while using no attachments',
-          'Marksman Rifle': '75 Kills while using no attachments',
-          'Sniper Rifle': '75 Kills while using no attachments',
-          'Melee': '25 Finisher Kills',
-          'Pistole': '75 Kills while using no attachments',
-          'Launchery': '50 kills with Amped perk'
+          'Assault Rifle': '110 Killù while using no attachments',
+          'Submachine Gun': '75 Killù while using no attachments',
+          'Brokovnice': '110 Killù while using no attachments',
+          'Light Machine Gun': '75 Killù while using no attachments',
+          'Marksman Rifle': '75 Killù while using no attachments',
+          'Sniper Rifle': '75 Killù while using no attachments',
+          'Melee': '25 Finisher Killù',
+          'Pistole': '75 Killù while using no attachments',
+          'Launchery': '50 Killù with Amped perk'
         }
       },
       {
@@ -588,9 +588,9 @@ export default new Vuex.Store({
           'Pistole': 'Kill 15 enemies in a match 100 times',
           'Launchery': {
             'RPG-7': 'Kill 5 enemies in a match 150 times',
-            'PILA': 'Destroy a vehicle or Killstreak 100 times',
-            'Strela-P': 'Destroy a vehicle or Killstreak 100 times',
-            'JOKR': 'Destroy a vehicle or Killstreak 100 times'
+            'PILA': 'Destroy a vehicle or Killùtreak 100 times',
+            'Strela-P': 'Destroy a vehicle or Killùtreak 100 times',
+            'JOKR': 'Destroy a vehicle or Killùtreak 100 times'
           }
         }
       }
@@ -603,29 +603,29 @@ export default new Vuex.Store({
         category: 'Kill',
         levels: {
           'Gold': {
-            'Assault Rifle': 'Get 500 Kills',
-            'Submachine Gun': 'Get 500 Kills',
-            'Brokovnice': 'Get 500 Kills',
-            'Light Machine Gun': 'Get 500 Kills',
-            'Marksman Rifle': 'Get 500 Kills',
-            'Sniper Rifle': 'Get 500 Kills',
-            'Melee': 'Get 500 Kills',
-            'Pistole': 'Get 500 Kills'
+            'Assault Rifle': 'Get 500 Killù',
+            'Submachine Gun': 'Get 500 Killù',
+            'Brokovnice': 'Get 500 Killù',
+            'Light Machine Gun': 'Get 500 Killù',
+            'Marksman Rifle': 'Get 500 Killù',
+            'Sniper Rifle': 'Get 500 Killù',
+            'Melee': 'Get 500 Killù',
+            'Pistole': 'Get 500 Killù'
           },
           'Damascus': {
-            'Assault Rifle': 'Get 2000 Kills',
-            'Submachine Gun': 'Get 2000 Kills',
-            'Brokovnice': 'Get 2000 Kills',
-            'Light Machine Gun': 'Get 2000 Kills',
-            'Marksman Rifle': 'Get 2000 Kills',
-            'Sniper Rifle': 'Get 2000 Kills',
+            'Assault Rifle': 'Get 2000 Killù',
+            'Submachine Gun': 'Get 2000 Killù',
+            'Brokovnice': 'Get 2000 Killù',
+            'Light Machine Gun': 'Get 2000 Killù',
+            'Marksman Rifle': 'Get 2000 Killù',
+            'Sniper Rifle': 'Get 2000 Killù',
             'Melee': {
-              'Combat Knife': 'Get 2000 Kills',
-              'Riot Shield': 'Get 1250 Kills',
-              'Kali Sticks': 'Get 2000 Kills',
-              'Dual Kodachis': 'Get 2000 Kills'
+              'Combat Knife': 'Get 2000 Killù',
+              'Riot Shield': 'Get 1250 Killù',
+              'Kali Sticks': 'Get 2000 Killù',
+              'Dual Kodachis': 'Get 2000 Killù'
             },
-            'Pistole': 'Get 2000 Kills'
+            'Pistole': 'Get 2000 Killù'
           }
         }
       },
@@ -635,10 +635,10 @@ export default new Vuex.Store({
         category: 'Vehicle Destruction',
         levels: {
           'Gold': {
-            'Launchery': 'Destroy 200 Vehicles or Killstreaks'
+            'Launchery': 'Destroy 200 Vehicles or Killùtreaks'
           },
           'Damascus': {
-            'Launchery': 'Destroy 800 Vehicles or Killstreaks'
+            'Launchery': 'Destroy 800 Vehicles or Killùtreaks'
           }
         }
       },
@@ -674,12 +674,12 @@ export default new Vuex.Store({
         levels: {
           'Platinum': {
             'Melee': {
-              'Riot Shield': 'Get 2 kills without dying 100 times'
+              'Riot Shield': 'Get 2 Killù without dying 100 times'
             },
           },
           'Obsidian': {
             'Melee': {
-              'Riot Shield': 'Get 2 kills without dying 200 times'
+              'Riot Shield': 'Get 2 Killù without dying 200 times'
             },
           }
         }
@@ -1776,365 +1776,365 @@ export default new Vuex.Store({
         ...defaultFilters
       },
       reticles: [
-        // ACOG Reticles
+        // ACOG Reticlys
         {
-          category: 'ACOG Reticle',
+          category: 'ACOG Reticly',
           name: 'Cross Dot',
-          requirement: 'Get 200 kills using the Scout Combat Optic',
+          requirement: 'Get 200 Killù using the Scout Combat Optic',
           completed: false,
         },
         {
-          category: 'ACOG Reticle',
+          category: 'ACOG Reticly',
           name: 'Angle Eye',
           requirement: 'Get 50 headshots using the Scout Combat Optic',
           completed: false,
         },
         {
-          category: 'ACOG Reticle',
+          category: 'ACOG Reticly',
           name: 'T Pose',
-          requirement: 'Get 200 kills using the VLK 3.0x Optic',
+          requirement: 'Get 200 Killù using the VLK 3.0x Optic',
           completed: false,
         },
         {
-          category: 'ACOG Reticle',
+          category: 'ACOG Reticly',
           name: 'Double Cross',
           requirement: 'Get 50 headshots using the VLK 3.0x Optic',
           completed: false,
         },
         {
-          category: 'ACOG Reticle',
+          category: 'ACOG Reticly',
           name: 'Green Cross',
-          requirement: 'Get 200 kills using the Cronen C480 Pro Optic',
+          requirement: 'Get 200 Killù using the Cronen C480 Pro Optic',
           completed: false,
         },
         {
-          category: 'ACOG Reticle',
+          category: 'ACOG Reticly',
           name: 'Redeye',
           requirement: 'Get 50 headshots using the Cronen C480 Pro Optic',
           completed: false,
         },
         {
-          category: 'ACOG Reticle',
+          category: 'ACOG Reticly',
           name: 'Blue V',
-          requirement: 'Get 3 kills in a single life 50 times using any ACOG Optic',
+          requirement: 'Get 3 Killù in a single life 50 times using any ACOG Optic',
           completed: false,
         },
 
-        // Holo Reticles
+        // Holo Reticlys
         {
-          category: 'Holo Reticle',
+          category: 'Holo Reticly',
           name: 'Downward Curve',
-          requirement: 'Get 200 kills using the Corp Combat Holo Sight',
+          requirement: 'Get 200 Killù using the Corp Combat Holo Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticle',
+          category: 'Holo Reticly',
           name: 'Witch',
           requirement: 'Get 50 headshots using the Corp Combat Holo Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticle',
+          category: 'Holo Reticly',
           name: 'Islet',
-          requirement: 'Get 200 kills using the APX5 Holographic Sight',
+          requirement: 'Get 200 Killù using the APX5 Holographic Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticle',
+          category: 'Holo Reticly',
           name: 'Summoner',
           requirement: 'Get 50 headshots using the APX5 Holographic Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticle',
+          category: 'Holo Reticly',
           name: 'Orbit',
-          requirement: 'Get 200 kills using the PBX Holo 7 Sight',
+          requirement: 'Get 200 Killù using the PBX Holo 7 Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticle',
+          category: 'Holo Reticly',
           name: 'Close Quarters',
           requirement: 'Get 50 headshots using the PBX Holo 7 Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticle',
+          category: 'Holo Reticly',
           name: 'Sunrise',
-          requirement: 'Get 200 kills using any Holo Sight',
+          requirement: 'Get 200 Killù using any Holo Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticle',
+          category: 'Holo Reticly',
           name: 'Evil Eye',
           requirement: 'Get 50 headshots using the any Holo Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticle',
+          category: 'Holo Reticly',
           name: 'Blue Dot',
-          requirement: 'Get 3 kills without dying 150 times using any Holo Sight',
+          requirement: 'Get 3 Killù without dying 150 times using any Holo Sight',
           completed: false,
         },
 
-        // Hybrid Reticles
+        // Hybrid Reticlys
         {
-          category: 'Hybrid Reticle',
+          category: 'Hybrid Reticly',
           name: 'Chevron Tactical',
-          requirement: 'Get 200 kills using the 4.0x Flip Hybrid Sight',
+          requirement: 'Get 200 Killù using the 4.0x Flip Hybrid Sight',
           completed: false,
         },
         {
-          category: 'Hybrid Reticle',
+          category: 'Hybrid Reticly',
           name: 'Confine',
           requirement: 'Get 50 headshots using the 4.0x Flip Hybrid Sight',
           completed: false,
         },
         {
-          category: 'Hybrid Reticle',
+          category: 'Hybrid Reticly',
           name: 'Heroic',
-          requirement: 'Get 200 kills using the Integral Hybrid Sight',
+          requirement: 'Get 200 Killù using the Integral Hybrid Sight',
           completed: false,
         },
         {
-          category: 'Hybrid Reticle',
+          category: 'Hybrid Reticly',
           name: 'Apotheosis',
           requirement: 'Get 50 headshots using the Integral Hybrid Sight',
           completed: false,
         },
         {
-          category: 'Hybrid Reticle',
+          category: 'Hybrid Reticly',
           name: 'Central Focus',
-          requirement: 'Get 200 kills using the Canted Hybrid Sight',
+          requirement: 'Get 200 Killù using the Canted Hybrid Sight',
           completed: false,
         },
         {
-          category: 'Hybrid Reticle',
+          category: 'Hybrid Reticly',
           name: 'Target Line',
           requirement: 'Get 50 headshots using the Canted Hybrid Sight',
           completed: false,
         },
         {
-          category: 'Hybrid Reticle',
+          category: 'Hybrid Reticly',
           name: 'Elegance',
-          requirement: 'Get 3 kills without dying 50 times using any Hybrid Sight',
+          requirement: 'Get 3 Killù without dying 50 times using any Hybrid Sight',
           completed: false,
         },
 
-        // Reflex Reticles
+        // Reflex Reticlys
         {
-          category: 'Reflex Reticle',
+          category: 'Reflex Reticly',
           name: 'Carrot',
-          requirement: 'Get 200 kills using the Operator Reflex Sight',
+          requirement: 'Get 200 Killù using the Operator Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticle',
+          category: 'Reflex Reticly',
           name: 'Add Point',
           requirement: 'Get 50 headshots using the Operator Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticle',
+          category: 'Reflex Reticly',
           name: 'Sunspot',
-          requirement: 'Get 200 kills using the Aim-Op Reflex Sight',
+          requirement: 'Get 200 Killù using the Aim-Op Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticle',
+          category: 'Reflex Reticly',
           name: 'Golden Bell',
           requirement: 'Get 50 headshots using the Aim-Op Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticle',
+          category: 'Reflex Reticly',
           name: 'Standard Fare',
-          requirement: 'Get 200 kills using the Viper Reflex Sight',
+          requirement: 'Get 200 Killù using the Viper Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticle',
+          category: 'Reflex Reticly',
           name: 'Perfect Balance',
           requirement: 'Get 50 headshots using the Viper Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticle',
+          category: 'Reflex Reticly',
           name: 'Division',
-          requirement: 'Get 200 kills using the Monocle Reflex Sight',
+          requirement: 'Get 200 Killù using the Monocle Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticle',
+          category: 'Reflex Reticly',
           name: 'Flare',
           requirement: 'Get 50 headshots using the Monocle Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticle',
+          category: 'Reflex Reticly',
           name: 'Green V',
-          requirement: 'Get 3 kills in a single life 50 times using any Reflex Sight',
+          requirement: 'Get 3 Killù in a single life 50 times using any Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticle',
+          category: 'Reflex Reticly',
           name: 'Blue Dot',
-          requirement: 'Get 500 kills using any Reflex Sight.',
+          requirement: 'Get 500 Killù using any Reflex Sight.',
           completed: false,
         },
 
-        // Sniper Reticles
+        // Sniper Reticlys
         {
-          category: 'Sniper Reticle',
+          category: 'Sniper Reticly',
           name: 'Crossthread',
-          requirement: 'Get 200 kills using the Sniper Scope',
+          requirement: 'Get 200 Killù using the Sniper Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticle',
+          category: 'Sniper Reticly',
           name: 'Pinpoint',
           requirement: 'Get 50 headshots using the Sniper Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticle',
+          category: 'Sniper Reticly',
           name: 'One Breath',
-          requirement: 'Get 3 kills without dying using the Sniper Scope',
+          requirement: 'Get 3 Killù without dying using the Sniper Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticle',
+          category: 'Sniper Reticly',
           name: 'Hangman',
-          requirement: 'Get 100 longshot kills using the Sniper Scope',
+          requirement: 'Get 100 longshot Killù using the Sniper Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticle',
+          category: 'Sniper Reticly',
           name: 'Drop Angle',
-          requirement: 'Get 150 mounted kills using the Sniper Scope',
+          requirement: 'Get 150 mounted Killù using the Sniper Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticle',
+          category: 'Sniper Reticly',
           name: 'Circle Pit',
-          requirement: 'Get 200 kills using the Variable Zoom Scope',
+          requirement: 'Get 200 Killù using the Variable Zoom Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticle',
+          category: 'Sniper Reticly',
           name: 'Cover Shot',
           requirement: 'Get 50 headshots using the Variable Zoom Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticle',
+          category: 'Sniper Reticly',
           name: 'Top Notch',
           requirement: 'Kill 3 enemies without dying 25 times while using the Variable Zoom Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticle',
+          category: 'Sniper Reticly',
           name: 'Marksman',
-          requirement: 'Get 100 longshot kills using the Variable Zoom Scope',
+          requirement: 'Get 100 longshot Killù using the Variable Zoom Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticle',
+          category: 'Sniper Reticly',
           name: 'Grid Line',
-          requirement: 'Get 150 mounted kills using the Variable Zoom Scope',
+          requirement: 'Get 150 mounted Killù using the Variable Zoom Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticle',
+          category: 'Sniper Reticly',
           name: 'Critical',
-          requirement: 'Get 500 kills using any Sniper Optic',
+          requirement: 'Get 500 Killù using any Sniper Optic',
           completed: false,
         },
 
-        // Thermal Hybrid Reticles
+        // Thermal Hybrid Reticlys
         {
-          category: 'Thermal Hybrid Reticle',
+          category: 'Thermal Hybrid Reticly',
           name: 'Dark Horizon',
-          requirement: 'Get 200 kills using the Thermal Hybrid Scope',
+          requirement: 'Get 200 Killù using the Thermal Hybrid Scope',
           completed: false,
         },
         {
-          category: 'Thermal Hybrid Reticle',
+          category: 'Thermal Hybrid Reticly',
           name: 'Stealth Bomber',
           requirement: 'Get 50 headshots using the Thermal Hybrid Scope',
           completed: false,
         },
         {
-          category: 'Thermal Hybrid Reticle',
+          category: 'Thermal Hybrid Reticly',
           name: 'Spectre',
-          requirement: 'Get 50 double kills using the Thermal Hybrid Scope',
+          requirement: 'Get 50 double Killù using the Thermal Hybrid Scope',
           completed: false,
         },
         {
-          category: 'Thermal Hybrid Reticle',
+          category: 'Thermal Hybrid Reticly',
           name: 'Tracker',
-          requirement: 'Get 150 mounted kills using the Thermal Hybrid Scope',
+          requirement: 'Get 150 mounted Killù using the Thermal Hybrid Scope',
           completed: false,
         },
         {
-          category: 'Thermal Hybrid Reticle',
+          category: 'Thermal Hybrid Reticly',
           name: 'Quadrants',
-          requirement: 'Get 150 longshot kills using the Thermal Hybrid Scope',
+          requirement: 'Get 150 longshot Killù using the Thermal Hybrid Scope',
           completed: false,
         },
         {
-          category: 'Thermal Hybrid Reticle',
+          category: 'Thermal Hybrid Reticly',
           name: 'All-Seeing',
-          requirement: 'Get 3 kills without dying 25 times using the Thermal Hybrid Scope',
+          requirement: 'Get 3 Killù without dying 25 times using the Thermal Hybrid Scope',
           completed: false,
         },
         {
-          category: 'Thermal Hybrid Reticle',
+          category: 'Thermal Hybrid Reticly',
           name: 'Pearl',
-          requirement: 'Get 500 kills using the Thermal Hybrid Scope',
+          requirement: 'Get 500 Killù using the Thermal Hybrid Scope',
           completed: false,
         },
 
-        // Thermal Reticles
+        // Thermal Reticlys
         {
-          category: 'Thermal Reticle',
+          category: 'Thermal Reticly',
           name: 'Weave',
-          requirement: 'Get 200 kills using the Solozero NVG Enhanced Scope',
+          requirement: 'Get 200 Killù using the Solozero NVG Enhanced Scope',
           completed: false,
         },
         {
-          category: 'Thermal Reticle',
+          category: 'Thermal Reticly',
           name: 'Drop Pad',
           requirement: 'Get 50 headshots using the Solozero NVG Enhanced Scope',
           completed: false,
         },
         {
-          category: 'Thermal Reticle',
+          category: 'Thermal Reticly',
           name: 'Cerberus',
-          requirement: 'Get 200 kills using the Merc Thermal Optic Scope',
+          requirement: 'Get 200 Killù using the Merc Thermal Optic Scope',
           completed: false,
         },
         {
-          category: 'Thermal Reticle',
+          category: 'Thermal Reticly',
           name: 'Zip Pad',
           requirement: 'Get 50 headshots using the Merc Thermal Optic Scope',
           completed: false,
         },
         {
-          category: 'Thermal Reticle',
+          category: 'Thermal Reticly',
           name: 'Wright Sight',
-          requirement: 'Get 200 kills using the Thermal Dual Power Scope',
+          requirement: 'Get 200 Killù using the Thermal Dual Power Scope',
           completed: false,
         },
         {
-          category: 'Thermal Reticle',
+          category: 'Thermal Reticly',
           name: 'Optical Illusion',
           requirement: 'Get 50 headshots using the Thermal Dual Power Scope',
           completed: false,
         },
         {
-          category: 'Thermal Reticle',
+          category: 'Thermal Reticly',
           name: 'Beasts of Prey',
-          requirement: 'Get 3 kills without dying 50 times using any Thermal Scope',
+          requirement: 'Get 3 Killù without dying 50 times using any Thermal Scope',
           completed: false,
         },
       ]
@@ -2328,7 +2328,7 @@ export default new Vuex.Store({
       context.commit('RESET_CHALLENGES');
       Vue.notify({
         type: 'success',
-        title: 'All progress successfully reset!'
+        title: 'Všechen progress byl úšpìšnì resetován!'
       });
     },
 
@@ -2338,7 +2338,7 @@ export default new Vuex.Store({
       context.dispatch('storeData');
       Vue.notify({
         type: 'success',
-        title: 'Camouflage progress successfully reset!'
+        title: 'Progress kamufláží byl úšpìšnì resetován!'
       });
     },
 
@@ -2347,7 +2347,7 @@ export default new Vuex.Store({
       context.dispatch('storeData');
       Vue.notify({
         type: 'success',
-        title: 'Reticle progress successfully reset!'
+        title: 'Progress reticlù byl úšpìšnì resetován!'
       });
     },
 
@@ -2356,7 +2356,7 @@ export default new Vuex.Store({
       context.dispatch('storeData');
       Vue.notify({
         type: 'success',
-        title: 'Master Challenges progress successfully reset!'
+        title: 'Progres Master Challenges byl úšpìšnì resetován!'
       });
     },
 
