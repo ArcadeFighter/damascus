@@ -242,30 +242,30 @@ function challengeReq(strings, count, attachCount) {
   return `${attachPrefix}${strings[0]} ${count} ${strings[1]}`;
 }
 
-const challengeTypes = {
-  adsNoStock: ['Get', 'Aiming Down Sight Kill˘ with the No Stock attachment option selected'],
-  adsFoldedStock: ['Get', 'Aiming Down Sight Kill˘ with the Folded Stock selected'],
-  adsLaser: ['Get', 'Kill˘ while Aiming Down Sights and using a Laser attachment'],
-  scoutLongshot: ['Get', 'Longshot Kill˘ while using the Scout Combat Optic'],
-  behindEnemy: ['Get', 'Kill˘ while behind the enemy'],
-  akimboReflex: ['Get', 'Kill˘ using the Akimbo weapon perk and a Reflex Optic'],
-  aerialVehicle: ['Destroy', 'Aerial Vehicles'],
-  sliding: ['Get', 'Kill˘ while sliding'],
-  quickscope: ['Get', 'Quickscope Kill˘'],
-  buzzkill: ['Get', 'BuzzKill˘ (End Enemy Streaks)'],
-  crouching: ['Get', 'Kill˘ while crouching'],
-  inSmoke: ['Get', 'Kill˘ while in smoke'],
-  scoutOptic: ['Get', 'Kill˘ while using a Scout Combat Optic'],
-  sniperScope: ['Get', 'Kill˘ while using a sniper scope'], // not capitalised in-game
-  hipfire: ['Get', 'Hipfire Kill˘'],
-  longshot: ['Get', 'Longshot Kill˘'],
-  pointBlankHeadshot: ['Get', 'Point Blank Headshot Kill˘'],
-  slidingHeadshot: ['Get', 'Headshot Kill˘ while sliding'],
-  inSmokeHeadshot: ['Get', 'Headshot Kill˘ while in smoke'],
-  crouchingHeadshot: ['Get', 'Headshot Kill˘ while crouching'],
-  mountedLongshot: ['Get', 'Mounted Longshot Kill˘'],
-  threeStreakTracker: ['Get', 'Kill˘ without dying and while using the Tracker Perk 10 times'],
-  doubleKillTracker: ['Get', 'Double Kill˘ while using the Tracker Perk'],
+const challenD√°types = {
+  adsNoStock: ['D√°t', 'Aiming Down Sight Kill≈Ø with the No Stock attachment option selected'],
+  adsFoldedStock: ['D√°t', 'Aiming Down Sight Kill≈Ø with the Folded Stock selected'],
+  adsLaser: ['D√°t', 'Kill≈Ø while Aiming Down Sights and using a Laser attachment'],
+  scoutLongshot: ['D√°t', 'Longshot Kill≈Ø while using the Scout Combat Optic'],
+  behindEnemy: ['D√°t', 'Kill≈Ø while behind the enemy'],
+  akimboReflex: ['D√°t', 'Kill≈Ø using the Akimbo weapon perk and a Reflex Optic'],
+  aerialVehicle: ['Zniƒçit', 'Aerial Vehicles'],
+  sliding: ['D√°t', 'Kill≈Ø while sliding'],
+  quickscope: ['D√°t', 'Quickscope Kill≈Ø'],
+  buzzkill: ['D√°t', 'BuzzKill≈Ø (End Enemy Streaks)'],
+  crouching: ['D√°t', 'Kill≈Ø while crouching'],
+  inSmoke: ['D√°t', 'Kill≈Ø while in smoke'],
+  scoutOptic: ['D√°t', 'Kill≈Ø while using a Scout Combat Optic'],
+  sniperScope: ['D√°t', 'Kill≈Ø while using a sniper scope'], // not capitalised in-game
+  hipfire: ['D√°t', 'Hipfire Kill≈Ø'],
+  longshot: ['D√°t', 'Longshot Kill≈Ø'],
+  pointBlankHeadshot: ['D√°t', 'Point Blank Headshot Kill≈Ø'],
+  slidingHeadshot: ['D√°t', 'Headshot Kill≈Ø while sliding'],
+  inSmokeHeadshot: ['D√°t', 'Headshot Kill≈Ø while in smoke'],
+  crouchingHeadshot: ['D√°t', 'Headshot Kill≈Ø while crouching'],
+  mountedLongshot: ['D√°t', 'Mounted Longshot Kill≈Ø'],
+  threeStreakTracker: ['D√°t', 'Kill≈Ø without dying and while using the Tracker Perk 10 times'],
+  doubleKillTracker: ['D√°t', 'Double Kill≈Ø while using the Tracker Perk'],
 }
 
 export default new Vuex.Store({
@@ -281,260 +281,260 @@ export default new Vuex.Store({
       {
         name: 'Spray Paint',
         requirements: {
-          'Assault Rifle': '800 Kill˘',
+          'Assault Rifle': '800 Kill≈Ø',
           'Submachine Gun': {
-            'AUG': '500 Kill˘',
-            'P90': '500 Kill˘',
-            'MP5': '500 Kill˘',
-            'Uzi': '500 Kill˘',
-            'PP19 Bizon': '500 Kill˘',
-            'MP7': '500 Kill˘',
-            'Striker 45': '500 Kill˘',
-            'Fennec': '250 Kill˘',
-            'ISO': '250 Kill˘',
-            'CX-9': '250 Kill˘'
+            'AUG': '500 Kill≈Ø',
+            'P90': '500 Kill≈Ø',
+            'MP5': '500 Kill≈Ø',
+            'Uzi': '500 Kill≈Ø',
+            'PP19 Bizon': '500 Kill≈Ø',
+            'MP7': '500 Kill≈Ø',
+            'Striker 45': '500 Kill≈Ø',
+            'Fennec': '250 Kill≈Ø',
+            'ISO': '250 Kill≈Ø',
+            'CX-9': '250 Kill≈Ø'
           },
-          'Brokovnice': '400 Kill˘',
-          'Light Machine Gun': '525 Kill˘',
-          'Marksman Rifle': '450 Kill˘',
-          'Sniper Rifle': '450 Kill˘',
-          'Melee': '200 Kill˘',
-          'Pistole': '250 Kill˘',
-          'Launchery': '125 Kill˘'
+          'Brokovnice': '400 Kill≈Ø',
+          'Light Machine Gun': '525 Kill≈Ø',
+          'Marksman Rifle': '450 Kill≈Ø',
+          'Sniper Rifle': '450 Kill≈Ø',
+          'Melee': '200 Kill≈Ø',
+          'Pistole': '250 Kill≈Ø',
+          'Launchery': '125 Kill≈Ø'
         }
       },
       {
         name: 'Woodland',
         requirements: {
-          'Assault Rifle': '125 Headshot Kill˘',
+          'Assault Rifle': '125 Headshot Kill≈Ø',
           'Submachine Gun': {
-            'AUG': '100 Headshot Kill˘',
-            'P90': '100 Headshot Kill˘',
-            'MP5': '100 Headshot Kill˘',
-            'Uzi': '100 Headshot Kill˘',
-            'PP19 Bizon': '100 Headshot Kill˘',
-            'MP7': '100 Headshot Kill˘',
-            'Striker 45': '100 Headshot Kill˘',
-            'Fennec': '50 Headshot Kill˘',
-            'ISO': '50 Headshot Kill˘',
-            'CX-9': '50 Headshot Kill˘'
+            'AUG': '100 Headshot Kill≈Ø',
+            'P90': '100 Headshot Kill≈Ø',
+            'MP5': '100 Headshot Kill≈Ø',
+            'Uzi': '100 Headshot Kill≈Ø',
+            'PP19 Bizon': '100 Headshot Kill≈Ø',
+            'MP7': '100 Headshot Kill≈Ø',
+            'Striker 45': '100 Headshot Kill≈Ø',
+            'Fennec': '50 Headshot Kill≈Ø',
+            'ISO': '50 Headshot Kill≈Ø',
+            'CX-9': '50 Headshot Kill≈Ø'
           },
-          'Brokovnice': '75 Crouching Kill˘',
-          'Light Machine Gun': '75 Headshot Kill˘',
-          'Marksman Rifle': '60 Headshot Kill˘',
-          'Sniper Rifle': '60 Headshot Kill˘',
-          'Melee': '50 Kill˘ while injured',
-          'Pistole': '50 Headshot Kill˘',
-          'Launchery': '40 Attacker Kill˘'
+          'Brokovnice': '75 Crouching Kill≈Ø',
+          'Light Machine Gun': '75 Headshot Kill≈Ø',
+          'Marksman Rifle': '60 Headshot Kill≈Ø',
+          'Sniper Rifle': '60 Headshot Kill≈Ø',
+          'Melee': '50 Kill≈Ø while injured',
+          'Pistole': '50 Headshot Kill≈Ø',
+          'Launchery': '40 Attacker Kill≈Ø'
         }
       },
       {
         name: 'Digital',
         requirements: {
-          'Assault Rifle': '160 Crouching Kill˘',
+          'Assault Rifle': '160 Crouching Kill≈Ø',
           'Submachine Gun': {
-            'AUG': '110 Crouching Kill˘',
-            'P90': '110 Crouching Kill˘',
-            'MP5': '110 Crouching Kill˘',
-            'Uzi': '110 Crouching Kill˘',
-            'PP19 Bizon': '110 Crouching Kill˘',
-            'MP7': '110 Crouching Kill˘',
-            'Striker 45': '110 Crouching Kill˘',
-            'Fennec': '40 Crouching Kill˘',
-            'ISO': '40 Crouching Kill˘',
-            'CX-9': '40 Crouching Kill˘'
+            'AUG': '110 Crouching Kill≈Ø',
+            'P90': '110 Crouching Kill≈Ø',
+            'MP5': '110 Crouching Kill≈Ø',
+            'Uzi': '110 Crouching Kill≈Ø',
+            'PP19 Bizon': '110 Crouching Kill≈Ø',
+            'MP7': '110 Crouching Kill≈Ø',
+            'Striker 45': '110 Crouching Kill≈Ø',
+            'Fennec': '40 Crouching Kill≈Ø',
+            'ISO': '40 Crouching Kill≈Ø',
+            'CX-9': '40 Crouching Kill≈Ø'
           },
-          'Brokovnice': '75 Hipfire Kill˘',
-          'Light Machine Gun': '65 Crouching Kill˘',
-          'Marksman Rifle': '50 Crouching Kill˘',
-          'Sniper Rifle': '50 Crouching Kill˘',
-          'Melee': '50 Kill˘ from behind',
-          'Pistole': '40 Crouching Kill˘',
-          'Launchery': '40 Defender Kill˘'
+          'Brokovnice': '75 Hipfire Kill≈Ø',
+          'Light Machine Gun': '65 Crouching Kill≈Ø',
+          'Marksman Rifle': '50 Crouching Kill≈Ø',
+          'Sniper Rifle': '50 Crouching Kill≈Ø',
+          'Melee': '50 Kill≈Ø from behind',
+          'Pistole': '40 Crouching Kill≈Ø',
+          'Launchery': '40 Defender Kill≈Ø'
         }
       },
       {
         name: 'Dragon',
         requirements: {
-          'Assault Rifle': '75 Hipfire Kill˘',
+          'Assault Rifle': '75 Hipfire Kill≈Ø',
           'Submachine Gun': {
-            'AUG': '100 Hipfire Kill˘',
-            'P90': '100 Hipfire Kill˘',
-            'MP5': '100 Hipfire Kill˘',
-            'Uzi': '100 Hipfire Kill˘',
-            'PP19 Bizon': '100 Hipfire Kill˘',
-            'MP7': '100 Hipfire Kill˘',
-            'Striker 45': '100 Hipfire Kill˘',
-            'Fennec': '30 Hipfire Kill˘',
-            'ISO': '30 Hipfire Kill˘',
-            'CX-9': '30 Hipfire Kill˘'
+            'AUG': '100 Hipfire Kill≈Ø',
+            'P90': '100 Hipfire Kill≈Ø',
+            'MP5': '100 Hipfire Kill≈Ø',
+            'Uzi': '100 Hipfire Kill≈Ø',
+            'PP19 Bizon': '100 Hipfire Kill≈Ø',
+            'MP7': '100 Hipfire Kill≈Ø',
+            'Striker 45': '100 Hipfire Kill≈Ø',
+            'Fennec': '30 Hipfire Kill≈Ø',
+            'ISO': '30 Hipfire Kill≈Ø',
+            'CX-9': '30 Hipfire Kill≈Ø'
           },
-          'Brokovnice': '50 Point Blank Kill˘',
-          'Light Machine Gun': '45 Hipfire Kill˘',
-          'Marksman Rifle': '50 One Shot Kill˘',
-          'Sniper Rifle': '50 One Shot Kill˘',
-          'Melee': '30 Kill˘ while using Dead Silence',
-          'Pistole': '30 Hipfire Kill˘',
-          'Launchery': '75 Aerial Kill˘treaks Destroyed'
+          'Brokovnice': '50 Point Blank Kill≈Ø',
+          'Light Machine Gun': '45 Hipfire Kill≈Ø',
+          'Marksman Rifle': '50 One Shot Kill≈Ø',
+          'Sniper Rifle': '50 One Shot Kill≈Ø',
+          'Melee': '30 Kill≈Ø while using Dead Silence',
+          'Pistole': '30 Hipfire Kill≈Ø',
+          'Launchery': '75 Aerial Kill≈Øtreaks Zniƒçited'
         }
       },
       {
         name: 'Splinter',
         requirements: {
-          'Assault Rifle': '100 Longshot Kill˘',
+          'Assault Rifle': '100 Longshot Kill≈Ø',
           'Submachine Gun': {
-            'AUG': '50 Longshot Kill˘',
-            'P90': '50 Longshot Kill˘',
-            'MP5': '50 Longshot Kill˘',
-            'Uzi': '50 Longshot Kill˘',
-            'PP19 Bizon': '50 Longshot Kill˘',
-            'MP7': '50 Longshot Kill˘',
-            'Striker 45': '50 Longshot Kill˘',
-            'Fennec': '30 Longshot Kill˘',
-            'ISO': '30 Longshot Kill˘',
-            'CX-9': '30 Longshot Kill˘'
+            'AUG': '50 Longshot Kill≈Ø',
+            'P90': '50 Longshot Kill≈Ø',
+            'MP5': '50 Longshot Kill≈Ø',
+            'Uzi': '50 Longshot Kill≈Ø',
+            'PP19 Bizon': '50 Longshot Kill≈Ø',
+            'MP7': '50 Longshot Kill≈Ø',
+            'Striker 45': '50 Longshot Kill≈Ø',
+            'Fennec': '30 Longshot Kill≈Ø',
+            'ISO': '30 Longshot Kill≈Ø',
+            'CX-9': '30 Longshot Kill≈Ø'
           },
           'Brokovnice': {
-            'Model 680': '50 Headshot Kill˘',
-            'R9-0': '50 Headshot Kill˘',
-            '725': '50 Longshot Kill˘',
-            'Origin 12': '50 Headshot Kill˘',
-            'VLK Rogue': '50 Headshot Kill˘',
-            'JAK-12': '50 Headshot Kill˘'
+            'Model 680': '50 Headshot Kill≈Ø',
+            'R9-0': '50 Headshot Kill≈Ø',
+            '725': '50 Longshot Kill≈Ø',
+            'Origin 12': '50 Headshot Kill≈Ø',
+            'VLK Rogue': '50 Headshot Kill≈Ø',
+            'JAK-12': '50 Headshot Kill≈Ø'
           },
-          'Light Machine Gun': '45 Longshot Kill˘',
+          'Light Machine Gun': '45 Longshot Kill≈Ø',
           'Marksman Rifle': {
-            'EBR-14': '150 Kill˘ while using all attachments',
-            'MK2 Carbine': '150 Kill˘ while using all attachments',
-            'Kar98k': '150 Kill˘ while using all attachments',
-            'Crossbow': '150 Kill˘ while using all attachments',
-            'SKS': '150 Kill˘ while using all attachments',
-            'SP-R 208': '50 Longshot Kill˘'
+            'EBR-14': '150 Kill≈Ø while using all attachments',
+            'MK2 Carbine': '150 Kill≈Ø while using all attachments',
+            'Kar98k': '150 Kill≈Ø while using all attachments',
+            'Crossbow': '150 Kill≈Ø while using all attachments',
+            'SKS': '150 Kill≈Ø while using all attachments',
+            'SP-R 208': '50 Longshot Kill≈Ø'
           },
-          'Sniper Rifle': '150 Kill˘ while using all attachments',
-          'Melee': '50 Crouching Kill˘',
-          'Pistole': '30 Longshot Kill˘',
-          'Launchery': '75 Ground vehicles destroyed'
+          'Sniper Rifle': '150 Kill≈Ø while using all attachments',
+          'Melee': '50 Crouching Kill≈Ø',
+          'Pistole': '30 Longshot Kill≈Ø',
+          'Launchery': '75 Ground vehicles Zniƒçited'
         }
       },
       {
         name: 'Topo',
         requirements: {
-          'Assault Rifle': '100 Mounted Kill˘',
+          'Assault Rifle': '100 Mounted Kill≈Ø',
           'Submachine Gun': {
-            'AUG': '50 Mounted Kill˘',
-            'P90': '50 Mounted Kill˘',
-            'MP5': '50 Mounted Kill˘',
-            'Uzi': '50 Mounted Kill˘',
-            'PP19 Bizon': '50 Mounted Kill˘',
-            'MP7': '50 Mounted Kill˘',
-            'Striker 45': '50 Mounted Kill˘',
-            'Fennec': '25 Double Kill˘',
-            'ISO': '25 Double Kill˘',
-            'CX-9': '25 Double Kill˘'
+            'AUG': '50 Mounted Kill≈Ø',
+            'P90': '50 Mounted Kill≈Ø',
+            'MP5': '50 Mounted Kill≈Ø',
+            'Uzi': '50 Mounted Kill≈Ø',
+            'PP19 Bizon': '50 Mounted Kill≈Ø',
+            'MP7': '50 Mounted Kill≈Ø',
+            'Striker 45': '50 Mounted Kill≈Ø',
+            'Fennec': '25 Double Kill≈Ø',
+            'ISO': '25 Double Kill≈Ø',
+            'CX-9': '25 Double Kill≈Ø'
           },
-          'Brokovnice': '225 Kill˘ while using all attachments',
-          'Light Machine Gun': '45 Mounted Kill˘',
+          'Brokovnice': '225 Kill≈Ø while using all attachments',
+          'Light Machine Gun': '45 Mounted Kill≈Ø',
           'Marksman Rifle': {
-            'EBR-14': '50 Longshot Kill˘',
-            'MK2 Carbine': '50 Longshot Kill˘',
-            'Kar98k': '50 Longshot Kill˘',
-            'Crossbow': '50 Longshot Kill˘',
-            'SKS': '25 Double Kill˘',
-            'SP-R 208': '25 Double Kill˘'
+            'EBR-14': '50 Longshot Kill≈Ø',
+            'MK2 Carbine': '50 Longshot Kill≈Ø',
+            'Kar98k': '50 Longshot Kill≈Ø',
+            'Crossbow': '50 Longshot Kill≈Ø',
+            'SKS': '25 Double Kill≈Ø',
+            'SP-R 208': '25 Double Kill≈Ø'
           },
-          'Sniper Rifle': '50 Longshot Kill˘',
+          'Sniper Rifle': '50 Longshot Kill≈Ø',
           'Melee': {
             'Riot Shield': '25 2-streaks',
-            'Combat Knife': '25 Double Kill˘',
-            'Kali Sticks': '25 Double Kill˘',
-            'Dual Kodachis': '25 Double Kill˘'
+            'Combat Knife': '25 Double Kill≈Ø',
+            'Kali Sticks': '25 Double Kill≈Ø',
+            'Dual Kodachis': '25 Double Kill≈Ø'
           },
-          'Pistole': '25 Double Kill˘',
-          'Launchery': '50 Equipment, Kill˘treaks, or vehicles destroyed'
+          'Pistole': '25 Double Kill≈Ø',
+          'Launchery': '50 Equipment, Kill≈Øtreaks, or vehicles Zniƒçited'
         }
       },
       {
         name: 'Tiger',
         requirements: {
-          'Assault Rifle': '180 Kill˘ while using all attachments',
+          'Assault Rifle': '180 Kill≈Ø while using all attachments',
           'Submachine Gun': {
-            'AUG': '250 Kill˘ while using all attachments',
-            'P90': '250 Kill˘ while using all attachments',
-            'MP5': '250 Kill˘ while using all attachments',
-            'Uzi': '250 Kill˘ while using all attachments',
-            'PP19 Bizon': '250 Kill˘ while using all attachments',
-            'MP7': '250 Kill˘ while using all attachments',
-            'Striker 45': '250 Kill˘ while using all attachments',
-            'Fennec': '110 Kill˘ while using all attachments',
-            'ISO': '110 Kill˘ while using all attachments',
-            'CX-9': '110 Kill˘ while using all attachments'
+            'AUG': '250 Kill≈Ø while using all attachments',
+            'P90': '250 Kill≈Ø while using all attachments',
+            'MP5': '250 Kill≈Ø while using all attachments',
+            'Uzi': '250 Kill≈Ø while using all attachments',
+            'PP19 Bizon': '250 Kill≈Ø while using all attachments',
+            'MP7': '250 Kill≈Ø while using all attachments',
+            'Striker 45': '250 Kill≈Ø while using all attachments',
+            'Fennec': '110 Kill≈Ø while using all attachments',
+            'ISO': '110 Kill≈Ø while using all attachments',
+            'CX-9': '110 Kill≈Ø while using all attachments'
           },
-          'Brokovnice': '25 Double Kill˘',
-          'Light Machine Gun': '180 Kill˘ while using all attachments',
+          'Brokovnice': '25 Double Kill≈Ø',
+          'Light Machine Gun': '180 Kill≈Ø while using all attachments',
           'Marksman Rifle': {
-            'EBR-14': '50 Mounted Kill˘',
-            'MK2 Carbine': '50 Mounted Kill˘',
-            'Kar98k': '50 Mounted Kill˘',
-            'Crossbow': '50 Mounted Kill˘',
-            'SKS': '50 Mounted Kill˘',
-            'SP-R 208': '150 Kill˘ while using all attachments'
+            'EBR-14': '50 Mounted Kill≈Ø',
+            'MK2 Carbine': '50 Mounted Kill≈Ø',
+            'Kar98k': '50 Mounted Kill≈Ø',
+            'Crossbow': '50 Mounted Kill≈Ø',
+            'SKS': '50 Mounted Kill≈Ø',
+            'SP-R 208': '150 Kill≈Ø while using all attachments'
           },
-          'Sniper Rifle': '50 Mounted Kill˘',
+          'Sniper Rifle': '50 Mounted Kill≈Ø',
           'Melee': {
-            'Riot Shield': '50 Kill˘ near smoke',
-            'Combat Knife': '25 Kill˘ near smoke',
-            'Kali Sticks': '50 Kill˘ near smoke',
-            'Dual Kodachis': '50 Kill˘ near smoke'
+            'Riot Shield': '50 Kill≈Ø near smoke',
+            'Combat Knife': '25 Kill≈Ø near smoke',
+            'Kali Sticks': '50 Kill≈Ø near smoke',
+            'Dual Kodachis': '50 Kill≈Ø near smoke'
           },
-          'Pistole': '110 Kill˘ while using all attachments',
-          'Launchery': '50 Supportstreaks destroyed'
+          'Pistole': '110 Kill≈Ø while using all attachments',
+          'Launchery': '50 Supportstreaks Zniƒçited'
         }
       },
       {
         name: 'Stripes',
         requirements: {
-          'Assault Rifle': '50 Kill˘ shortly after reload',
+          'Assault Rifle': '50 Kill≈Ø shortly after reload',
           'Submachine Gun': {
-            'AUG': '40 Kill˘ shortly after reload',
-            'P90': '40 Kill˘ shortly after reload',
-            'MP5': '40 Kill˘ shortly after reload',
-            'Uzi': '40 Kill˘ shortly after reload',
-            'PP19 Bizon': '40 Kill˘ shortly after reload',
-            'MP7': '40 Kill˘ shortly after reload',
-            'Striker 45': '40 Kill˘ shortly after reload',
-            'Fennec': '25 Kill˘ shortly after reload',
-            'ISO': '25 Kill˘ shortly after reload',
-            'CX-9': '25 Kill˘ shortly after reload'
+            'AUG': '40 Kill≈Ø shortly after reload',
+            'P90': '40 Kill≈Ø shortly after reload',
+            'MP5': '40 Kill≈Ø shortly after reload',
+            'Uzi': '40 Kill≈Ø shortly after reload',
+            'PP19 Bizon': '40 Kill≈Ø shortly after reload',
+            'MP7': '40 Kill≈Ø shortly after reload',
+            'Striker 45': '40 Kill≈Ø shortly after reload',
+            'Fennec': '25 Kill≈Ø shortly after reload',
+            'ISO': '25 Kill≈Ø shortly after reload',
+            'CX-9': '25 Kill≈Ø shortly after reload'
           },
-          'Brokovnice': '30 Kill˘ shortly after reload',
-          'Light Machine Gun': '30 Double Kill˘',
+          'Brokovnice': '30 Kill≈Ø shortly after reload',
+          'Light Machine Gun': '30 Double Kill≈Ø',
           'Marksman Rifle': {
-            'EBR-14': '25 Double Kill˘',
-            'MK2 Carbine': '25 Double Kill˘',
-            'Kar98k': '25 Double Kill˘',
-            'Crossbow': '25 Double Kill˘',
-            'SKS': '25 Double Kill˘',
-            'SP-R 208': '50 Mounted Kill˘'
+            'EBR-14': '25 Double Kill≈Ø',
+            'MK2 Carbine': '25 Double Kill≈Ø',
+            'Kar98k': '25 Double Kill≈Ø',
+            'Crossbow': '25 Double Kill≈Ø',
+            'SKS': '25 Double Kill≈Ø',
+            'SP-R 208': '50 Mounted Kill≈Ø'
           },
-          'Sniper Rifle': '25 Double Kill˘',
-          'Melee': '10 BuzzKill˘',
-          'Pistole': '25 Kill˘ shortly after reload',
-          'Launchery': '50 Kill˘treaks destroyed'
+          'Sniper Rifle': '25 Double Kill≈Ø',
+          'Melee': '10 BuzzKill≈Ø',
+          'Pistole': '25 Kill≈Ø shortly after reload',
+          'Launchery': '50 Kill≈Øtreaks Zniƒçited'
         }
       },
       {
         name: 'Reptile',
         requirements: {
-          'Assault Rifle': '110 Kill˘ while using no attachments',
-          'Submachine Gun': '75 Kill˘ while using no attachments',
-          'Brokovnice': '110 Kill˘ while using no attachments',
-          'Light Machine Gun': '75 Kill˘ while using no attachments',
-          'Marksman Rifle': '75 Kill˘ while using no attachments',
-          'Sniper Rifle': '75 Kill˘ while using no attachments',
-          'Melee': '25 Finisher Kill˘',
-          'Pistole': '75 Kill˘ while using no attachments',
-          'Launchery': '50 Kill˘ with Amped perk'
+          'Assault Rifle': '110 Kill≈Ø while using no attachments',
+          'Submachine Gun': '75 Kill≈Ø while using no attachments',
+          'Brokovnice': '110 Kill≈Ø while using no attachments',
+          'Light Machine Gun': '75 Kill≈Ø while using no attachments',
+          'Marksman Rifle': '75 Kill≈Ø while using no attachments',
+          'Sniper Rifle': '75 Kill≈Ø while using no attachments',
+          'Melee': '25 Finisher Kill≈Ø',
+          'Pistole': '75 Kill≈Ø while using no attachments',
+          'Launchery': '50 Kill≈Ø with Amped perk'
         }
       },
       {
@@ -553,7 +553,7 @@ export default new Vuex.Store({
             'Dual Kodachis': '10 3-streaks'
           },
           'Pistole': '25 3-streaks',
-          'Launchery': '50 vehicles destroyed'
+          'Launchery': '50 vehicles Zniƒçited'
         }
       },
       {
@@ -588,9 +588,9 @@ export default new Vuex.Store({
           'Pistole': 'Kill 15 enemies in a match 100 times',
           'Launchery': {
             'RPG-7': 'Kill 5 enemies in a match 150 times',
-            'PILA': 'Destroy a vehicle or Kill˘treak 100 times',
-            'Strela-P': 'Destroy a vehicle or Kill˘treak 100 times',
-            'JOKR': 'Destroy a vehicle or Kill˘treak 100 times'
+            'PILA': 'Zniƒçit a vehicle or Kill≈Øtreak 100 times',
+            'Strela-P': 'Zniƒçit a vehicle or Kill≈Øtreak 100 times',
+            'JOKR': 'Zniƒçit a vehicle or Kill≈Øtreak 100 times'
           }
         }
       }
@@ -603,29 +603,29 @@ export default new Vuex.Store({
         category: 'Kill',
         levels: {
           'Gold': {
-            'Assault Rifle': 'Get 500 Kill˘',
-            'Submachine Gun': 'Get 500 Kill˘',
-            'Brokovnice': 'Get 500 Kill˘',
-            'Light Machine Gun': 'Get 500 Kill˘',
-            'Marksman Rifle': 'Get 500 Kill˘',
-            'Sniper Rifle': 'Get 500 Kill˘',
-            'Melee': 'Get 500 Kill˘',
-            'Pistole': 'Get 500 Kill˘'
+            'Assault Rifle': 'D√°t 500 Kill≈Ø',
+            'Submachine Gun': 'D√°t 500 Kill≈Ø',
+            'Brokovnice': 'D√°t 500 Kill≈Ø',
+            'Light Machine Gun': 'D√°t 500 Kill≈Ø',
+            'Marksman Rifle': 'D√°t 500 Kill≈Ø',
+            'Sniper Rifle': 'D√°t 500 Kill≈Ø',
+            'Melee': 'D√°t 500 Kill≈Ø',
+            'Pistole': 'D√°t 500 Kill≈Ø'
           },
           'Damascus': {
-            'Assault Rifle': 'Get 2000 Kill˘',
-            'Submachine Gun': 'Get 2000 Kill˘',
-            'Brokovnice': 'Get 2000 Kill˘',
-            'Light Machine Gun': 'Get 2000 Kill˘',
-            'Marksman Rifle': 'Get 2000 Kill˘',
-            'Sniper Rifle': 'Get 2000 Kill˘',
+            'Assault Rifle': 'D√°t 2000 Kill≈Ø',
+            'Submachine Gun': 'D√°t 2000 Kill≈Ø',
+            'Brokovnice': 'D√°t 2000 Kill≈Ø',
+            'Light Machine Gun': 'D√°t 2000 Kill≈Ø',
+            'Marksman Rifle': 'D√°t 2000 Kill≈Ø',
+            'Sniper Rifle': 'D√°t 2000 Kill≈Ø',
             'Melee': {
-              'Combat Knife': 'Get 2000 Kill˘',
-              'Riot Shield': 'Get 1250 Kill˘',
-              'Kali Sticks': 'Get 2000 Kill˘',
-              'Dual Kodachis': 'Get 2000 Kill˘'
+              'Combat Knife': 'D√°t 2000 Kill≈Ø',
+              'Riot Shield': 'D√°t 1250 Kill≈Ø',
+              'Kali Sticks': 'D√°t 2000 Kill≈Ø',
+              'Dual Kodachis': 'D√°t 2000 Kill≈Ø'
             },
-            'Pistole': 'Get 2000 Kill˘'
+            'Pistole': 'D√°t 2000 Kill≈Ø'
           }
         }
       },
@@ -635,10 +635,10 @@ export default new Vuex.Store({
         category: 'Vehicle Destruction',
         levels: {
           'Gold': {
-            'Launchery': 'Destroy 200 Vehicles or Kill˘treaks'
+            'Launchery': 'Zniƒçit 200 Vehicles or Kill≈Øtreaks'
           },
           'Damascus': {
-            'Launchery': 'Destroy 800 Vehicles or Kill˘treaks'
+            'Launchery': 'Zniƒçit 800 Vehicles or Kill≈Øtreaks'
           }
         }
       },
@@ -648,22 +648,22 @@ export default new Vuex.Store({
         category: 'Headshot',
         levels: {
           'Platinum': {
-            'Assault Rifle': 'Get 250 Headshots',
-            'Submachine Gun': 'Get 250 Headshots',
-            'Brokovnice': 'Get 250 Headshots',
-            'Light Machine Gun': 'Get 250 Headshots',
-            'Marksman Rifle': 'Get 250 Headshots',
-            'Sniper Rifle': 'Get 250 Headshots',
-            'Pistole': 'Get 250 Headshots'
+            'Assault Rifle': 'D√°t 250 Headshots',
+            'Submachine Gun': 'D√°t 250 Headshots',
+            'Brokovnice': 'D√°t 250 Headshots',
+            'Light Machine Gun': 'D√°t 250 Headshots',
+            'Marksman Rifle': 'D√°t 250 Headshots',
+            'Sniper Rifle': 'D√°t 250 Headshots',
+            'Pistole': 'D√°t 250 Headshots'
           },
           'Obsidian': {
-            'Assault Rifle': 'Get 750 Headshots',
-            'Submachine Gun': 'Get 750 Headshots',
-            'Brokovnice': 'Get 750 Headshots',
-            'Light Machine Gun': 'Get 750 Headshots',
-            'Marksman Rifle': 'Get 750 Headshots',
-            'Sniper Rifle': 'Get 750 Headshots',
-            'Pistole': 'Get 750 Headshots'
+            'Assault Rifle': 'D√°t 750 Headshots',
+            'Submachine Gun': 'D√°t 750 Headshots',
+            'Brokovnice': 'D√°t 750 Headshots',
+            'Light Machine Gun': 'D√°t 750 Headshots',
+            'Marksman Rifle': 'D√°t 750 Headshots',
+            'Sniper Rifle': 'D√°t 750 Headshots',
+            'Pistole': 'D√°t 750 Headshots'
           }
         }
       },
@@ -674,12 +674,12 @@ export default new Vuex.Store({
         levels: {
           'Platinum': {
             'Melee': {
-              'Riot Shield': 'Get 2 Kill˘ without dying 100 times'
+              'Riot Shield': 'D√°t 2 Kill≈Ø without dying 100 times'
             },
           },
           'Obsidian': {
             'Melee': {
-              'Riot Shield': 'Get 2 Kill˘ without dying 200 times'
+              'Riot Shield': 'D√°t 2 Kill≈Ø without dying 200 times'
             },
           }
         }
@@ -691,19 +691,19 @@ export default new Vuex.Store({
         levels: {
           'Platinum': {
             'Melee': {
-              'Combat Knife': 'Get a Double kill 100 times',
-              'Kali Sticks': 'Get a Double kill 100 times',
-              'Dual Kodachis': 'Get a Double kill 100 times'
+              'Combat Knife': 'D√°t a Double kill 100 times',
+              'Kali Sticks': 'D√°t a Double kill 100 times',
+              'Dual Kodachis': 'D√°t a Double kill 100 times'
             },
-            'Launchery': 'Get a Double kill 75 times'
+            'Launchery': 'D√°t a Double kill 75 times'
           },
           'Obsidian': {
             'Melee': {
-              'Combat Knife': 'Get a Double kill 300 times',
-              'Kali Sticks': 'Get a Double kill 300 times',
-              'Dual Kodachis': 'Get a Double kill 300 times'
+              'Combat Knife': 'D√°t a Double kill 300 times',
+              'Kali Sticks': 'D√°t a Double kill 300 times',
+              'Dual Kodachis': 'D√°t a Double kill 300 times'
             },
-            'Launchery': 'Get a Double kill 325 times'
+            'Launchery': 'D√°t a Double kill 325 times'
           }
         }
       },
@@ -714,117 +714,117 @@ export default new Vuex.Store({
         levels: {
           'Gold': {
             'Assault Rifle': {
-              'Kilo 141':challengeReq(challengeTypes.adsNoStock, 75),
-              'FAL': challengeReq(challengeTypes.adsNoStock, 75),
-              'M4A1': challengeReq(challengeTypes.adsNoStock, 75),
-              'FR 5.56': challengeReq(challengeTypes.adsLaser, 75),
-              'Oden': challengeReq(challengeTypes.adsLaser, 75),
-              'M13': challengeReq(challengeTypes.adsNoStock, 75),
-              'FN Scar 17': challengeReq(challengeTypes.adsLaser, 75),
-              'AK-47': challengeReq(challengeTypes.adsNoStock, 75),
-              'RAM-7': challengeReq(challengeTypes.adsLaser, 75),
-              'Grau 5.56': challengeReq(challengeTypes.adsNoStock, 75),
-              'CR-56 AMAX': challengeReq(challengeTypes.adsNoStock, 75),
-              'AN-94': challengeReq(challengeTypes.adsFoldedStock, 75),
-              'AS VAL': challengeReq(challengeTypes.adsNoStock, 75),
+              'Kilo 141':challengeReq(challenD√°types.adsNoStock, 75),
+              'FAL': challengeReq(challenD√°types.adsNoStock, 75),
+              'M4A1': challengeReq(challenD√°types.adsNoStock, 75),
+              'FR 5.56': challengeReq(challenD√°types.adsLaser, 75),
+              'Oden': challengeReq(challenD√°types.adsLaser, 75),
+              'M13': challengeReq(challenD√°types.adsNoStock, 75),
+              'FN Scar 17': challengeReq(challenD√°types.adsLaser, 75),
+              'AK-47': challengeReq(challenD√°types.adsNoStock, 75),
+              'RAM-7': challengeReq(challenD√°types.adsLaser, 75),
+              'Grau 5.56': challengeReq(challenD√°types.adsNoStock, 75),
+              'CR-56 AMAX': challengeReq(challenD√°types.adsNoStock, 75),
+              'AN-94': challengeReq(challenD√°types.adsFoldedStock, 75),
+              'AS VAL': challengeReq(challenD√°types.adsNoStock, 75),
             },
             'Submachine Gun': {
-              'AUG': challengeReq(challengeTypes.adsLaser, 50),
-              'P90': challengeReq(challengeTypes.adsLaser, 50),
-              'MP5': challengeReq(challengeTypes.adsLaser, 50),
-              'Uzi': challengeReq(challengeTypes.adsNoStock, 50),
-              'PP19 Bizon': challengeReq(challengeTypes.adsNoStock, 50),
-              'MP7': challengeReq(challengeTypes.adsNoStock, 50),
-              'Striker 45': challengeReq(challengeTypes.adsLaser, 50),
-              'Fennec': challengeReq(challengeTypes.adsLaser, 50),
-              'ISO': challengeReq(challengeTypes.adsLaser, 50),
+              'AUG': challengeReq(challenD√°types.adsLaser, 50),
+              'P90': challengeReq(challenD√°types.adsLaser, 50),
+              'MP5': challengeReq(challenD√°types.adsLaser, 50),
+              'Uzi': challengeReq(challenD√°types.adsNoStock, 50),
+              'PP19 Bizon': challengeReq(challenD√°types.adsNoStock, 50),
+              'MP7': challengeReq(challenD√°types.adsNoStock, 50),
+              'Striker 45': challengeReq(challenD√°types.adsLaser, 50),
+              'Fennec': challengeReq(challenD√°types.adsLaser, 50),
+              'ISO': challengeReq(challenD√°types.adsLaser, 50),
             },
             'Brokovnice': {
-              'Model 680': challengeReq(challengeTypes.adsNoStock, 50),
-              'R9-0': challengeReq(challengeTypes.adsLaser, 50),
-              '725': challengeReq(challengeTypes.adsLaser, 50),
-              'Origin 12': challengeReq(challengeTypes.adsNoStock, 50),
-              'VLK Rogue': challengeReq(challengeTypes.adsNoStock, 50),
-              'JAK-12': challengeReq(challengeTypes.adsNoStock, 50),
+              'Model 680': challengeReq(challenD√°types.adsNoStock, 50),
+              'R9-0': challengeReq(challenD√°types.adsLaser, 50),
+              '725': challengeReq(challenD√°types.adsLaser, 50),
+              'Origin 12': challengeReq(challenD√°types.adsNoStock, 50),
+              'VLK Rogue': challengeReq(challenD√°types.adsNoStock, 50),
+              'JAK-12': challengeReq(challenD√°types.adsNoStock, 50),
             },
             'Light Machine Gun': {
-              'PKM': challengeReq(challengeTypes.adsNoStock, 50),
-              'SA87': challengeReq(challengeTypes.adsLaser, 50),
-              'M91': challengeReq(challengeTypes.adsNoStock, 50),
-              'MG34': challengeReq(challengeTypes.adsNoStock, 50),
-              'Holger-26': challengeReq(challengeTypes.adsNoStock, 50),
-              'Bruen Mk9': challengeReq(challengeTypes.adsNoStock, 50),
-              'FiNN': challengeReq(challengeTypes.adsNoStock, 50),
+              'PKM': challengeReq(challenD√°types.adsNoStock, 50),
+              'SA87': challengeReq(challenD√°types.adsLaser, 50),
+              'M91': challengeReq(challenD√°types.adsNoStock, 50),
+              'MG34': challengeReq(challenD√°types.adsNoStock, 50),
+              'Holger-26': challengeReq(challenD√°types.adsNoStock, 50),
+              'Bruen Mk9': challengeReq(challenD√°types.adsNoStock, 50),
+              'FiNN': challengeReq(challenD√°types.adsNoStock, 50),
             },
-            'Marksman Rifle': challengeReq(challengeTypes.scoutLongshot, 5),
-            'Sniper Rifle': challengeReq(challengeTypes.scoutLongshot, 5),
-            'Melee':  challengeReq(challengeTypes.behindEnemy, 50),
-            'Pistole': challengeReq(challengeTypes.akimboReflex, 50),
-            'Launchery': challengeReq(challengeTypes.aerialVehicle, 20),
+            'Marksman Rifle': challengeReq(challenD√°types.scoutLongshot, 5),
+            'Sniper Rifle': challengeReq(challenD√°types.scoutLongshot, 5),
+            'Melee':  challengeReq(challenD√°types.behindEnemy, 50),
+            'Pistole': challengeReq(challenD√°types.akimboReflex, 50),
+            'Launchery': challengeReq(challenD√°types.aerialVehicle, 20),
           },
           'Platinum': {
-            'Assault Rifle': challengeReq(challengeTypes.sliding, 50),
-            'Submachine Gun': challengeReq(challengeTypes.sliding, 50),
-            'Brokovnice': challengeReq(challengeTypes.sliding, 75),
-            'Light Machine Gun': challengeReq(challengeTypes.sliding, 25),
+            'Assault Rifle': challengeReq(challenD√°types.sliding, 50),
+            'Submachine Gun': challengeReq(challenD√°types.sliding, 50),
+            'Brokovnice': challengeReq(challenD√°types.sliding, 75),
+            'Light Machine Gun': challengeReq(challenD√°types.sliding, 25),
             'Marksman Rifle': {
-              'EBR-14': challengeReq(challengeTypes.quickscope, 75),
-              'MK2 Carbine': challengeReq(challengeTypes.quickscope, 75),
-              'Kar98k': challengeReq(challengeTypes.quickscope, 75),
-              'Crossbow': challengeReq(challengeTypes.quickscope, 25),
-              'SKS': challengeReq(challengeTypes.quickscope, 75),
-              'SP-R 208': challengeReq(challengeTypes.quickscope, 75)
+              'EBR-14': challengeReq(challenD√°types.quickscope, 75),
+              'MK2 Carbine': challengeReq(challenD√°types.quickscope, 75),
+              'Kar98k': challengeReq(challenD√°types.quickscope, 75),
+              'Crossbow': challengeReq(challenD√°types.quickscope, 25),
+              'SKS': challengeReq(challenD√°types.quickscope, 75),
+              'SP-R 208': challengeReq(challenD√°types.quickscope, 75)
             },
-            'Sniper Rifle': challengeReq(challengeTypes.quickscope, 75),
+            'Sniper Rifle': challengeReq(challenD√°types.quickscope, 75),
             'Melee': {
-              'Combat Knife': challengeReq(challengeTypes.sliding, 25),
-              'Riot Shield': challengeReq(challengeTypes.buzzkill, 25),
-              'Kali Sticks': challengeReq(challengeTypes.sliding, 25),
-              'Dual Kodachis': challengeReq(challengeTypes.sliding, 25),
+              'Combat Knife': challengeReq(challenD√°types.sliding, 25),
+              'Riot Shield': challengeReq(challenD√°types.buzzkill, 25),
+              'Kali Sticks': challengeReq(challenD√°types.sliding, 25),
+              'Dual Kodachis': challengeReq(challenD√°types.sliding, 25),
             },
-            'Pistole': challengeReq(challengeTypes.sliding, 30),
-            'Launchery': challengeReq(challengeTypes.buzzkill, 10),
+            'Pistole': challengeReq(challenD√°types.sliding, 30),
+            'Launchery': challengeReq(challenD√°types.buzzkill, 10),
           },
           'Damascus': {
-            'Assault Rifle': challengeReq(challengeTypes.crouching, 75),
-            'Submachine Gun': challengeReq(challengeTypes.inSmoke, 25),
+            'Assault Rifle': challengeReq(challenD√°types.crouching, 75),
+            'Submachine Gun': challengeReq(challenD√°types.inSmoke, 25),
             'Brokovnice': {
-              'Model 680': challengeReq(challengeTypes.scoutOptic, 75),
-              'R9-0': challengeReq(challengeTypes.scoutOptic, 75),
-              '725': challengeReq(challengeTypes.sniperScope, 75),
-              'Origin 12': challengeReq(challengeTypes.scoutOptic, 75),
-              'VLK Rogue': challengeReq(challengeTypes.scoutOptic, 75),
-              'JAK-12': challengeReq(challengeTypes.scoutOptic, 75),
+              'Model 680': challengeReq(challenD√°types.scoutOptic, 75),
+              'R9-0': challengeReq(challenD√°types.scoutOptic, 75),
+              '725': challengeReq(challenD√°types.sniperScope, 75),
+              'Origin 12': challengeReq(challenD√°types.scoutOptic, 75),
+              'VLK Rogue': challengeReq(challenD√°types.scoutOptic, 75),
+              'JAK-12': challengeReq(challenD√°types.scoutOptic, 75),
             },
-            'Light Machine Gun': challengeReq(challengeTypes.hipfire, 25),
+            'Light Machine Gun': challengeReq(challenD√°types.hipfire, 25),
             'Marksman Rifle': {
-              'EBR-14': challengeReq(challengeTypes.hipfire, 10),
-              'MK2 Carbine': challengeReq(challengeTypes.hipfire, 10),
-              'Kar98k': challengeReq(challengeTypes.hipfire, 10),
-              'Crossbow': challengeReq(challengeTypes.hipfire, 75),
-              'SKS': challengeReq(challengeTypes.hipfire, 75),
-              'SP-R 208': challengeReq(challengeTypes.hipfire, 75)
+              'EBR-14': challengeReq(challenD√°types.hipfire, 10),
+              'MK2 Carbine': challengeReq(challenD√°types.hipfire, 10),
+              'Kar98k': challengeReq(challenD√°types.hipfire, 10),
+              'Crossbow': challengeReq(challenD√°types.hipfire, 75),
+              'SKS': challengeReq(challenD√°types.hipfire, 75),
+              'SP-R 208': challengeReq(challenD√°types.hipfire, 75)
             },
-            'Sniper Rifle': challengeReq(challengeTypes.hipfire, 10),
-            'Melee': challengeReq(challengeTypes.inSmoke, 75),
-            'Pistole': challengeReq(challengeTypes.inSmoke, 75),
-            'Launchery': challengeReq(challengeTypes.longshot, 20),
+            'Sniper Rifle': challengeReq(challenD√°types.hipfire, 10),
+            'Melee': challengeReq(challenD√°types.inSmoke, 75),
+            'Pistole': challengeReq(challenD√°types.inSmoke, 75),
+            'Launchery': challengeReq(challenD√°types.longshot, 20),
           },
           'Obsidian': {
-            'Assault Rifle': challengeReq(challengeTypes.pointBlankHeadshot, 25, 4),
-            'Submachine Gun': challengeReq(challengeTypes.slidingHeadshot, 5, 3),
-            'Brokovnice': challengeReq(challengeTypes.inSmokeHeadshot, 10, 4),
-            'Light Machine Gun': challengeReq(challengeTypes.crouchingHeadshot, 25, 3),
-            'Marksman Rifle': challengeReq(challengeTypes.mountedLongshot, 25, 2),
-            'Sniper Rifle': challengeReq(challengeTypes.mountedLongshot, 25, 2),
+            'Assault Rifle': challengeReq(challenD√°types.pointBlankHeadshot, 25, 4),
+            'Submachine Gun': challengeReq(challenD√°types.slidingHeadshot, 5, 3),
+            'Brokovnice': challengeReq(challenD√°types.inSmokeHeadshot, 10, 4),
+            'Light Machine Gun': challengeReq(challenD√°types.crouchingHeadshot, 25, 3),
+            'Marksman Rifle': challengeReq(challenD√°types.mountedLongshot, 25, 2),
+            'Sniper Rifle': challengeReq(challenD√°types.mountedLongshot, 25, 2),
             'Melee': {
-              'Combat Knife': challengeReq(challengeTypes.doubleKillTracker, 10),
-              'Riot Shield': challengeReq(challengeTypes.threeStreakTracker, 3),
-              'Kali Sticks': challengeReq(challengeTypes.doubleKillTracker, 10),
-              'Dual Kodachis': challengeReq(challengeTypes.doubleKillTracker, 10)
+              'Combat Knife': challengeReq(challenD√°types.doubleKillTracker, 10),
+              'Riot Shield': challengeReq(challenD√°types.threeStreakTracker, 3),
+              'Kali Sticks': challengeReq(challenD√°types.doubleKillTracker, 10),
+              'Dual Kodachis': challengeReq(challenD√°types.doubleKillTracker, 10)
             },
-            'Pistole': challengeReq(challengeTypes.pointBlankHeadshot, 75, 3),
-            'Launchery': challengeReq(challengeTypes.doubleKillTracker, 10),
+            'Pistole': challengeReq(challenD√°types.pointBlankHeadshot, 75, 3),
+            'Launchery': challengeReq(challenD√°types.doubleKillTracker, 10),
           },
         }
       },
@@ -1776,365 +1776,365 @@ export default new Vuex.Store({
         ...defaultFilters
       },
       reticles: [
-        // ACOG Reticlys
+        // ACOG Reticles
         {
-          category: 'ACOG Reticly',
+          category: 'ACOG Reticle',
           name: 'Cross Dot',
-          requirement: 'Get 200 Kill˘ using the Scout Combat Optic',
+          requirement: 'D√°t 200 Kill≈Ø using the Scout Combat Optic',
           completed: false,
         },
         {
-          category: 'ACOG Reticly',
+          category: 'ACOG Reticle',
           name: 'Angle Eye',
-          requirement: 'Get 50 headshots using the Scout Combat Optic',
+          requirement: 'D√°t 50 headshots using the Scout Combat Optic',
           completed: false,
         },
         {
-          category: 'ACOG Reticly',
+          category: 'ACOG Reticle',
           name: 'T Pose',
-          requirement: 'Get 200 Kill˘ using the VLK 3.0x Optic',
+          requirement: 'D√°t 200 Kill≈Ø using the VLK 3.0x Optic',
           completed: false,
         },
         {
-          category: 'ACOG Reticly',
+          category: 'ACOG Reticle',
           name: 'Double Cross',
-          requirement: 'Get 50 headshots using the VLK 3.0x Optic',
+          requirement: 'D√°t 50 headshots using the VLK 3.0x Optic',
           completed: false,
         },
         {
-          category: 'ACOG Reticly',
+          category: 'ACOG Reticle',
           name: 'Green Cross',
-          requirement: 'Get 200 Kill˘ using the Cronen C480 Pro Optic',
+          requirement: 'D√°t 200 Kill≈Ø using the Cronen C480 Pro Optic',
           completed: false,
         },
         {
-          category: 'ACOG Reticly',
+          category: 'ACOG Reticle',
           name: 'Redeye',
-          requirement: 'Get 50 headshots using the Cronen C480 Pro Optic',
+          requirement: 'D√°t 50 headshots using the Cronen C480 Pro Optic',
           completed: false,
         },
         {
-          category: 'ACOG Reticly',
+          category: 'ACOG Reticle',
           name: 'Blue V',
-          requirement: 'Get 3 Kill˘ in a single life 50 times using any ACOG Optic',
+          requirement: 'D√°t 3 Kill≈Ø in a single life 50 times using any ACOG Optic',
           completed: false,
         },
 
-        // Holo Reticlys
+        // Holo Reticles
         {
-          category: 'Holo Reticly',
+          category: 'Holo Reticle',
           name: 'Downward Curve',
-          requirement: 'Get 200 Kill˘ using the Corp Combat Holo Sight',
+          requirement: 'D√°t 200 Kill≈Ø using the Corp Combat Holo Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticly',
+          category: 'Holo Reticle',
           name: 'Witch',
-          requirement: 'Get 50 headshots using the Corp Combat Holo Sight',
+          requirement: 'D√°t 50 headshots using the Corp Combat Holo Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticly',
+          category: 'Holo Reticle',
           name: 'Islet',
-          requirement: 'Get 200 Kill˘ using the APX5 Holographic Sight',
+          requirement: 'D√°t 200 Kill≈Ø using the APX5 Holographic Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticly',
+          category: 'Holo Reticle',
           name: 'Summoner',
-          requirement: 'Get 50 headshots using the APX5 Holographic Sight',
+          requirement: 'D√°t 50 headshots using the APX5 Holographic Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticly',
+          category: 'Holo Reticle',
           name: 'Orbit',
-          requirement: 'Get 200 Kill˘ using the PBX Holo 7 Sight',
+          requirement: 'D√°t 200 Kill≈Ø using the PBX Holo 7 Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticly',
+          category: 'Holo Reticle',
           name: 'Close Quarters',
-          requirement: 'Get 50 headshots using the PBX Holo 7 Sight',
+          requirement: 'D√°t 50 headshots using the PBX Holo 7 Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticly',
+          category: 'Holo Reticle',
           name: 'Sunrise',
-          requirement: 'Get 200 Kill˘ using any Holo Sight',
+          requirement: 'D√°t 200 Kill≈Ø using any Holo Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticly',
+          category: 'Holo Reticle',
           name: 'Evil Eye',
-          requirement: 'Get 50 headshots using the any Holo Sight',
+          requirement: 'D√°t 50 headshots using the any Holo Sight',
           completed: false,
         },
         {
-          category: 'Holo Reticly',
+          category: 'Holo Reticle',
           name: 'Blue Dot',
-          requirement: 'Get 3 Kill˘ without dying 150 times using any Holo Sight',
+          requirement: 'D√°t 3 Kill≈Ø without dying 150 times using any Holo Sight',
           completed: false,
         },
 
-        // Hybrid Reticlys
+        // Hybrid Reticles
         {
-          category: 'Hybrid Reticly',
+          category: 'Hybrid Reticle',
           name: 'Chevron Tactical',
-          requirement: 'Get 200 Kill˘ using the 4.0x Flip Hybrid Sight',
+          requirement: 'D√°t 200 Kill≈Ø using the 4.0x Flip Hybrid Sight',
           completed: false,
         },
         {
-          category: 'Hybrid Reticly',
+          category: 'Hybrid Reticle',
           name: 'Confine',
-          requirement: 'Get 50 headshots using the 4.0x Flip Hybrid Sight',
+          requirement: 'D√°t 50 headshots using the 4.0x Flip Hybrid Sight',
           completed: false,
         },
         {
-          category: 'Hybrid Reticly',
+          category: 'Hybrid Reticle',
           name: 'Heroic',
-          requirement: 'Get 200 Kill˘ using the Integral Hybrid Sight',
+          requirement: 'D√°t 200 Kill≈Ø using the Integral Hybrid Sight',
           completed: false,
         },
         {
-          category: 'Hybrid Reticly',
+          category: 'Hybrid Reticle',
           name: 'Apotheosis',
-          requirement: 'Get 50 headshots using the Integral Hybrid Sight',
+          requirement: 'D√°t 50 headshots using the Integral Hybrid Sight',
           completed: false,
         },
         {
-          category: 'Hybrid Reticly',
+          category: 'Hybrid Reticle',
           name: 'Central Focus',
-          requirement: 'Get 200 Kill˘ using the Canted Hybrid Sight',
+          requirement: 'D√°t 200 Kill≈Ø using the Canted Hybrid Sight',
           completed: false,
         },
         {
-          category: 'Hybrid Reticly',
-          name: 'Target Line',
-          requirement: 'Get 50 headshots using the Canted Hybrid Sight',
+          category: 'Hybrid Reticle',
+          name: 'TarD√°t Line',
+          requirement: 'D√°t 50 headshots using the Canted Hybrid Sight',
           completed: false,
         },
         {
-          category: 'Hybrid Reticly',
+          category: 'Hybrid Reticle',
           name: 'Elegance',
-          requirement: 'Get 3 Kill˘ without dying 50 times using any Hybrid Sight',
+          requirement: 'D√°t 3 Kill≈Ø without dying 50 times using any Hybrid Sight',
           completed: false,
         },
 
-        // Reflex Reticlys
+        // Reflex Reticles
         {
-          category: 'Reflex Reticly',
+          category: 'Reflex Reticle',
           name: 'Carrot',
-          requirement: 'Get 200 Kill˘ using the Operator Reflex Sight',
+          requirement: 'D√°t 200 Kill≈Ø using the Operator Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticly',
+          category: 'Reflex Reticle',
           name: 'Add Point',
-          requirement: 'Get 50 headshots using the Operator Reflex Sight',
+          requirement: 'D√°t 50 headshots using the Operator Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticly',
+          category: 'Reflex Reticle',
           name: 'Sunspot',
-          requirement: 'Get 200 Kill˘ using the Aim-Op Reflex Sight',
+          requirement: 'D√°t 200 Kill≈Ø using the Aim-Op Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticly',
+          category: 'Reflex Reticle',
           name: 'Golden Bell',
-          requirement: 'Get 50 headshots using the Aim-Op Reflex Sight',
+          requirement: 'D√°t 50 headshots using the Aim-Op Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticly',
+          category: 'Reflex Reticle',
           name: 'Standard Fare',
-          requirement: 'Get 200 Kill˘ using the Viper Reflex Sight',
+          requirement: 'D√°t 200 Kill≈Ø using the Viper Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticly',
+          category: 'Reflex Reticle',
           name: 'Perfect Balance',
-          requirement: 'Get 50 headshots using the Viper Reflex Sight',
+          requirement: 'D√°t 50 headshots using the Viper Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticly',
+          category: 'Reflex Reticle',
           name: 'Division',
-          requirement: 'Get 200 Kill˘ using the Monocle Reflex Sight',
+          requirement: 'D√°t 200 Kill≈Ø using the Monocle Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticly',
+          category: 'Reflex Reticle',
           name: 'Flare',
-          requirement: 'Get 50 headshots using the Monocle Reflex Sight',
+          requirement: 'D√°t 50 headshots using the Monocle Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticly',
+          category: 'Reflex Reticle',
           name: 'Green V',
-          requirement: 'Get 3 Kill˘ in a single life 50 times using any Reflex Sight',
+          requirement: 'D√°t 3 Kill≈Ø in a single life 50 times using any Reflex Sight',
           completed: false,
         },
         {
-          category: 'Reflex Reticly',
+          category: 'Reflex Reticle',
           name: 'Blue Dot',
-          requirement: 'Get 500 Kill˘ using any Reflex Sight.',
+          requirement: 'D√°t 500 Kill≈Ø using any Reflex Sight.',
           completed: false,
         },
 
-        // Sniper Reticlys
+        // Sniper Reticles
         {
-          category: 'Sniper Reticly',
+          category: 'Sniper Reticle',
           name: 'Crossthread',
-          requirement: 'Get 200 Kill˘ using the Sniper Scope',
+          requirement: 'D√°t 200 Kill≈Ø using the Sniper Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticly',
+          category: 'Sniper Reticle',
           name: 'Pinpoint',
-          requirement: 'Get 50 headshots using the Sniper Scope',
+          requirement: 'D√°t 50 headshots using the Sniper Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticly',
+          category: 'Sniper Reticle',
           name: 'One Breath',
-          requirement: 'Get 3 Kill˘ without dying using the Sniper Scope',
+          requirement: 'D√°t 3 Kill≈Ø without dying using the Sniper Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticly',
+          category: 'Sniper Reticle',
           name: 'Hangman',
-          requirement: 'Get 100 longshot Kill˘ using the Sniper Scope',
+          requirement: 'D√°t 100 longshot Kill≈Ø using the Sniper Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticly',
+          category: 'Sniper Reticle',
           name: 'Drop Angle',
-          requirement: 'Get 150 mounted Kill˘ using the Sniper Scope',
+          requirement: 'D√°t 150 mounted Kill≈Ø using the Sniper Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticly',
+          category: 'Sniper Reticle',
           name: 'Circle Pit',
-          requirement: 'Get 200 Kill˘ using the Variable Zoom Scope',
+          requirement: 'D√°t 200 Kill≈Ø using the Variable Zoom Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticly',
+          category: 'Sniper Reticle',
           name: 'Cover Shot',
-          requirement: 'Get 50 headshots using the Variable Zoom Scope',
+          requirement: 'D√°t 50 headshots using the Variable Zoom Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticly',
+          category: 'Sniper Reticle',
           name: 'Top Notch',
           requirement: 'Kill 3 enemies without dying 25 times while using the Variable Zoom Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticly',
+          category: 'Sniper Reticle',
           name: 'Marksman',
-          requirement: 'Get 100 longshot Kill˘ using the Variable Zoom Scope',
+          requirement: 'D√°t 100 longshot Kill≈Ø using the Variable Zoom Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticly',
+          category: 'Sniper Reticle',
           name: 'Grid Line',
-          requirement: 'Get 150 mounted Kill˘ using the Variable Zoom Scope',
+          requirement: 'D√°t 150 mounted Kill≈Ø using the Variable Zoom Scope',
           completed: false,
         },
         {
-          category: 'Sniper Reticly',
+          category: 'Sniper Reticle',
           name: 'Critical',
-          requirement: 'Get 500 Kill˘ using any Sniper Optic',
+          requirement: 'D√°t 500 Kill≈Ø using any Sniper Optic',
           completed: false,
         },
 
-        // Thermal Hybrid Reticlys
+        // Thermal Hybrid Reticles
         {
-          category: 'Thermal Hybrid Reticly',
+          category: 'Thermal Hybrid Reticle',
           name: 'Dark Horizon',
-          requirement: 'Get 200 Kill˘ using the Thermal Hybrid Scope',
+          requirement: 'D√°t 200 Kill≈Ø using the Thermal Hybrid Scope',
           completed: false,
         },
         {
-          category: 'Thermal Hybrid Reticly',
+          category: 'Thermal Hybrid Reticle',
           name: 'Stealth Bomber',
-          requirement: 'Get 50 headshots using the Thermal Hybrid Scope',
+          requirement: 'D√°t 50 headshots using the Thermal Hybrid Scope',
           completed: false,
         },
         {
-          category: 'Thermal Hybrid Reticly',
+          category: 'Thermal Hybrid Reticle',
           name: 'Spectre',
-          requirement: 'Get 50 double Kill˘ using the Thermal Hybrid Scope',
+          requirement: 'D√°t 50 double Kill≈Ø using the Thermal Hybrid Scope',
           completed: false,
         },
         {
-          category: 'Thermal Hybrid Reticly',
+          category: 'Thermal Hybrid Reticle',
           name: 'Tracker',
-          requirement: 'Get 150 mounted Kill˘ using the Thermal Hybrid Scope',
+          requirement: 'D√°t 150 mounted Kill≈Ø using the Thermal Hybrid Scope',
           completed: false,
         },
         {
-          category: 'Thermal Hybrid Reticly',
+          category: 'Thermal Hybrid Reticle',
           name: 'Quadrants',
-          requirement: 'Get 150 longshot Kill˘ using the Thermal Hybrid Scope',
+          requirement: 'D√°t 150 longshot Kill≈Ø using the Thermal Hybrid Scope',
           completed: false,
         },
         {
-          category: 'Thermal Hybrid Reticly',
+          category: 'Thermal Hybrid Reticle',
           name: 'All-Seeing',
-          requirement: 'Get 3 Kill˘ without dying 25 times using the Thermal Hybrid Scope',
+          requirement: 'D√°t 3 Kill≈Ø without dying 25 times using the Thermal Hybrid Scope',
           completed: false,
         },
         {
-          category: 'Thermal Hybrid Reticly',
+          category: 'Thermal Hybrid Reticle',
           name: 'Pearl',
-          requirement: 'Get 500 Kill˘ using the Thermal Hybrid Scope',
+          requirement: 'D√°t 500 Kill≈Ø using the Thermal Hybrid Scope',
           completed: false,
         },
 
-        // Thermal Reticlys
+        // Thermal Reticles
         {
-          category: 'Thermal Reticly',
+          category: 'Thermal Reticle',
           name: 'Weave',
-          requirement: 'Get 200 Kill˘ using the Solozero NVG Enhanced Scope',
+          requirement: 'D√°t 200 Kill≈Ø using the Solozero NVG Enhanced Scope',
           completed: false,
         },
         {
-          category: 'Thermal Reticly',
+          category: 'Thermal Reticle',
           name: 'Drop Pad',
-          requirement: 'Get 50 headshots using the Solozero NVG Enhanced Scope',
+          requirement: 'D√°t 50 headshots using the Solozero NVG Enhanced Scope',
           completed: false,
         },
         {
-          category: 'Thermal Reticly',
+          category: 'Thermal Reticle',
           name: 'Cerberus',
-          requirement: 'Get 200 Kill˘ using the Merc Thermal Optic Scope',
+          requirement: 'D√°t 200 Kill≈Ø using the Merc Thermal Optic Scope',
           completed: false,
         },
         {
-          category: 'Thermal Reticly',
+          category: 'Thermal Reticle',
           name: 'Zip Pad',
-          requirement: 'Get 50 headshots using the Merc Thermal Optic Scope',
+          requirement: 'D√°t 50 headshots using the Merc Thermal Optic Scope',
           completed: false,
         },
         {
-          category: 'Thermal Reticly',
+          category: 'Thermal Reticle',
           name: 'Wright Sight',
-          requirement: 'Get 200 Kill˘ using the Thermal Dual Power Scope',
+          requirement: 'D√°t 200 Kill≈Ø using the Thermal Dual Power Scope',
           completed: false,
         },
         {
-          category: 'Thermal Reticly',
+          category: 'Thermal Reticle',
           name: 'Optical Illusion',
-          requirement: 'Get 50 headshots using the Thermal Dual Power Scope',
+          requirement: 'D√°t 50 headshots using the Thermal Dual Power Scope',
           completed: false,
         },
         {
-          category: 'Thermal Reticly',
+          category: 'Thermal Reticle',
           name: 'Beasts of Prey',
-          requirement: 'Get 3 Kill˘ without dying 50 times using any Thermal Scope',
+          requirement: 'D√°t 3 Kill≈Ø without dying 50 times using any Thermal Scope',
           completed: false,
         },
       ]
@@ -2270,28 +2270,28 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    async getStoredData({ dispatch }) {
-      await dispatch('getProgress');
-      await dispatch('getFilters');
-      await dispatch('getReticles');
+    async D√°tStoredData({ dispatch }) {
+      await dispatch('D√°tProgress');
+      await dispatch('D√°tFilters');
+      await dispatch('D√°tReticles');
 
       await dispatch('storeData');
     },
 
-    getProgress(context) {
-      const data = JSON.parse(localStorage.getItem(token));
+    D√°tProgress(context) {
+      const data = JSON.parse(localStorage.D√°tItem(token));
       const weapons = data ? data.weapons : null;
       context.commit('SET_PROGRESS', weapons);
     },
 
-    getFilters(context) {
-      const data = JSON.parse(localStorage.getItem(token));
+    D√°tFilters(context) {
+      const data = JSON.parse(localStorage.D√°tItem(token));
       const filters = data ? data.filters : null;
       context.commit('SET_FILTERS', { type: null, filters });
     },
 
-    getReticles(context) {
-      const data = JSON.parse(localStorage.getItem(token));
+    D√°tReticles(context) {
+      const data = JSON.parse(localStorage.D√°tItem(token));
       const reticles = data ? data.reticles : null;
       context.commit('SET_RETICLES', reticles);
     },
@@ -2328,7 +2328,7 @@ export default new Vuex.Store({
       context.commit('RESET_CHALLENGES');
       Vue.notify({
         type: 'success',
-        title: 'Vöechen progress byl ˙öpÏönÏ resetov·n!'
+        title: 'V≈°echen progress byl √∫≈°pƒõ≈°nƒõ resetov√°n!'
       });
     },
 
@@ -2338,7 +2338,7 @@ export default new Vuex.Store({
       context.dispatch('storeData');
       Vue.notify({
         type: 'success',
-        title: 'Progress kamufl·ûÌ byl ˙öpÏönÏ resetov·n!'
+        title: 'Progress kamufl√°≈æ√≠ byl √∫≈°pƒõ≈°nƒõ resetov√°n!'
       });
     },
 
@@ -2347,7 +2347,7 @@ export default new Vuex.Store({
       context.dispatch('storeData');
       Vue.notify({
         type: 'success',
-        title: 'Progress reticl˘ byl ˙öpÏönÏ resetov·n!'
+        title: 'Progress reticl≈Ø byl √∫≈°pƒõ≈°nƒõ resetov√°n!'
       });
     },
 
@@ -2356,7 +2356,7 @@ export default new Vuex.Store({
       context.dispatch('storeData');
       Vue.notify({
         type: 'success',
-        title: 'Progres Master Challenges byl ˙öpÏönÏ resetov·n!'
+        title: 'Progres Master Challenges byl √∫≈°pƒõ≈°nƒõ resetov√°n!'
       });
     },
 
