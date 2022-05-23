@@ -23,7 +23,7 @@
     </transition-group>
 
     <div v-if="Object.keys(reticles).length === 0" class="finished-placeholder">
-      <p>You've unlocked all reticles 👏</p>
+      <p>Máš odemknutý všechny reticly 👏</p>
     </div>
   </div>
 </template>

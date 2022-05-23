@@ -12,7 +12,7 @@
                   challenge: mode === 'Challenges'
                   }" 
                 @dblclick="toggleWeaponComplete(weapon, completed(weapon, mode), mode)"
-                v-tippy="{ content: `Double-click to ${ completed(weapon, mode) ? 'reset' : 'complete' } weapon` }">{{ weapon.name }}</div>
+                v-tippy="{ content: `Klikni dvakrát pro ${ completed(weapon, mode) ? 'reset' : 'complete' } zbraně` }">{{ weapon.name }}</div>
             
             <!-- Camouflages Progress -->
             <div class="progress" v-if="mode === 'Camouflages'">
@@ -67,8 +67,8 @@
     </transition-group>
 
     <div v-if="Object.keys(weapons).length === 0" class="finished-placeholder">
-      <p v-if="mode === 'Camouflages'">You've completed all camouflage challenges 👏</p>
-      <p v-if="mode === 'Challenges'">You've completed all mastery challenges 👏</p>
+      <p v-if="mode === 'Camouflages'">Splnil jsi všechny challenge na kamufláže 👏</p>
+      <p v-if="mode === 'Challenges'">Splnil jsi všechny master challenge 👏</p>
     </div>
   </div>
 </template>

@@ -4,10 +4,10 @@
       <div class="completed" 
            :class="{ damascus: damascusCompleted && !allCompleted, allCompleted, mastery: masteryCompleted, challenges: challengesCompleted }" 
            v-show="damascusCompleted || allCompleted || masteryCompleted || challengesCompleted">
-        <h2 v-if="allCompleted">You completed everything, you absolute madman! 🥳</h2>
-        <h2 v-if="damascusCompleted && !allCompleted">Damascus unlocked! 🥳</h2>
-        <h2 v-if="masteryCompleted && !allCompleted">All mastery camouflages completed, you absolute madman. 😎</h2>
-        <h2 v-if="challengesCompleted && !allCompleted">All Master Challenges completed!<br/>That's what's called a pro gamer move! 🤩</h2>
+        <h2 v-if="allCompleted">Splnil jsi úplně všechno, jsi absolutní madman! 🥳</h2>
+        <h2 v-if="damascusCompleted && !allCompleted">Máš odemknutý Damascus! 🥳</h2>
+        <h2 v-if="masteryCompleted && !allCompleted">Máš všechny mastery kamufláže odemknutý, jsi absolutní madman. 😎</h2>
+        <h2 v-if="challengesCompleted && !allCompleted">Všechny Master Challenges hotové!<br/>Tomu se říká pro gamer move! 🤩</h2>
       </div>
     </transition>
 
@@ -15,10 +15,10 @@
       <div class="bars" v-show="totalProgress > 0 && show">
         <div class="progress total"
              v-if="totalProgress < 100"
-             :content="'Camouflages (including Obsidian) and Master Challenges'"
+             :content="'Kamufláže (včetně Obsidianu) a Master Challenge'"
              v-tippy="{ maxWidth: 500 }">
           <div class="bar" :style="{ width: totalProgress + '%' }"></div>
-          <label>Total progress: <span>{{ totalProgress }}%</span></label>
+          <label>Celkový progress: <span>{{ totalProgress }}%</span></label>
         </div>
 
         <div class="progress mastery" 

@@ -45,42 +45,42 @@ export default {
       uploading: false,
       settings: [
         {
-          name: 'Export progress',
-          description: 'Export your current progress as a file.',
+          name: 'Exportovat progress',
+          description: 'Exportuje tvůj aktuální progress do souboru.',
           action: 'exportProgress',
         },
         {
-          name: 'Import progress',
-          description: 'Import progress from exported file.',
+          name: 'Importovat progress',
+          description: 'Importuje tvůj progress ze souboru.',
           action: 'importProgress'
         },
         {
-          name: 'Reset camouflage progress',
+          name: 'Resetovat progress kamufláží',
           description: 'Reset your current camouflage progress.',
-          warning: 'This action is irreversible.',
+          warning: 'Tato akce je nevratná.',
           action: 'resetProgress',
-          button: 'Reset progress'
+          button: 'Resetovat progress'
         },
         {
-          name: 'Reset reticle progress',
+          name: 'Resetovat progress reticlů',
           description: 'Reset your current reticles progress.',
-          warning: 'This action is irreversible.',
+          warning: 'Tato akce je nevratná.',
           action: 'resetReticles',
-          button: 'Reset progress'
+          button: 'Resetovat progress'
         },
         {
-          name: 'Reset Master Challenges progress',
+          name: 'Resetovat progress Master Challenges',
           description: 'Reset your current Master Challenges progress.',
-          warning: 'This action is irreversible.',
+          warning: 'Tato akce je nevratná.',
           action: 'resetChallenges',
-          button: 'Reset progress'
+          button: 'Resetovat progress'
         },
         {
-          name: 'Reset all progress',
-          description: 'Reset your current camouflage, reticle & Master Challenges progress.',
-          warning: 'This action is irreversible.',
+          name: 'Resetovat všechen progress',
+          description: 'Resetovat všechen tvůj progress u kamufláží, reticlů a Master Challenges.',
+          warning: 'Tato akce je nevratná.',
           action: 'resetAll',
-          button: 'Reset progress'
+          button: 'Resetovat progress'
         }
       ]
     }
@@ -108,17 +108,17 @@ export default {
                   event.target.value = null;
                   this.$notify({
                     type: 'success',
-                    title: `Successfully imported progress!`,
+                    title: `Progress úspěšně importován!`,
                   });
                 });
             }, 500);
           };
           reader.readAsText(file);
         } else {
-          this.handleImportError(`Your browser does not support the required APIs to handle uploads.`, event);
+          this.handleImportError(`Tvůj prohlížeč nepodporuje požadovanou API pro zpracování nahrávání souborů.`, event);
         }
       } else {
-        this.handleImportError(`The file type of the uploaded file is incorrect, it needs to be ".json".`, event);
+        this.handleImportError(`Tento typ souboru je špatný. Sprývný soubor musí mít koncovku ".json".`, event);
       }
     },
 

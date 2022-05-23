@@ -30,11 +30,11 @@ const defaultChallenges = (category, weapon) => {
   switch (category) {
     case 'Assault Rifle':
     case 'Submachine Gun':
-    case 'Shotgun':
+    case 'Brokovnice':
     case 'Light Machine Gun':
     case 'Marksman Rifle':
     case 'Sniper Rifle':
-    case 'Handgun':
+    case 'Pistole':
       return [
         {
           category: 'Kill',
@@ -170,7 +170,7 @@ const defaultChallenges = (category, weapon) => {
         break;
       }
 
-    case 'Launcher':
+    case 'Launchery':
       return [
         {
           category: 'Vehicle Destruction',
@@ -294,13 +294,13 @@ export default new Vuex.Store({
             'ISO': '250 Kills',
             'CX-9': '250 Kills'
           },
-          'Shotgun': '400 Kills',
+          'Brokovnice': '400 Kills',
           'Light Machine Gun': '525 Kills',
           'Marksman Rifle': '450 Kills',
           'Sniper Rifle': '450 Kills',
           'Melee': '200 Kills',
-          'Handgun': '250 Kills',
-          'Launcher': '125 Kills'
+          'Pistole': '250 Kills',
+          'Launchery': '125 Kills'
         }
       },
       {
@@ -319,13 +319,13 @@ export default new Vuex.Store({
             'ISO': '50 Headshot Kills',
             'CX-9': '50 Headshot Kills'
           },
-          'Shotgun': '75 Crouching Kills',
+          'Brokovnice': '75 Crouching Kills',
           'Light Machine Gun': '75 Headshot Kills',
           'Marksman Rifle': '60 Headshot Kills',
           'Sniper Rifle': '60 Headshot Kills',
           'Melee': '50 Kills while injured',
-          'Handgun': '50 Headshot Kills',
-          'Launcher': '40 Attacker Kills'
+          'Pistole': '50 Headshot Kills',
+          'Launchery': '40 Attacker Kills'
         }
       },
       {
@@ -344,13 +344,13 @@ export default new Vuex.Store({
             'ISO': '40 Crouching Kills',
             'CX-9': '40 Crouching Kills'
           },
-          'Shotgun': '75 Hipfire Kills',
+          'Brokovnice': '75 Hipfire Kills',
           'Light Machine Gun': '65 Crouching Kills',
           'Marksman Rifle': '50 Crouching Kills',
           'Sniper Rifle': '50 Crouching Kills',
           'Melee': '50 Kills from behind',
-          'Handgun': '40 Crouching Kills',
-          'Launcher': '40 Defender Kills'
+          'Pistole': '40 Crouching Kills',
+          'Launchery': '40 Defender Kills'
         }
       },
       {
@@ -369,13 +369,13 @@ export default new Vuex.Store({
             'ISO': '30 Hipfire Kills',
             'CX-9': '30 Hipfire Kills'
           },
-          'Shotgun': '50 Point Blank Kills',
+          'Brokovnice': '50 Point Blank Kills',
           'Light Machine Gun': '45 Hipfire Kills',
           'Marksman Rifle': '50 One Shot Kills',
           'Sniper Rifle': '50 One Shot Kills',
           'Melee': '30 Kills while using Dead Silence',
-          'Handgun': '30 Hipfire Kills',
-          'Launcher': '75 Aerial Killstreaks Destroyed'
+          'Pistole': '30 Hipfire Kills',
+          'Launchery': '75 Aerial Killstreaks Destroyed'
         }
       },
       {
@@ -394,7 +394,7 @@ export default new Vuex.Store({
             'ISO': '30 Longshot Kills',
             'CX-9': '30 Longshot Kills'
           },
-          'Shotgun': {
+          'Brokovnice': {
             'Model 680': '50 Headshot Kills',
             'R9-0': '50 Headshot Kills',
             '725': '50 Longshot Kills',
@@ -413,8 +413,8 @@ export default new Vuex.Store({
           },
           'Sniper Rifle': '150 Kills while using all attachments',
           'Melee': '50 Crouching Kills',
-          'Handgun': '30 Longshot Kills',
-          'Launcher': '75 Ground vehicles destroyed'
+          'Pistole': '30 Longshot Kills',
+          'Launchery': '75 Ground vehicles destroyed'
         }
       },
       {
@@ -433,7 +433,7 @@ export default new Vuex.Store({
             'ISO': '25 Double Kills',
             'CX-9': '25 Double Kills'
           },
-          'Shotgun': '225 Kills while using all attachments',
+          'Brokovnice': '225 Kills while using all attachments',
           'Light Machine Gun': '45 Mounted Kills',
           'Marksman Rifle': {
             'EBR-14': '50 Longshot Kills',
@@ -450,8 +450,8 @@ export default new Vuex.Store({
             'Kali Sticks': '25 Double Kills',
             'Dual Kodachis': '25 Double Kills'
           },
-          'Handgun': '25 Double Kills',
-          'Launcher': '50 Equipment, killstreaks, or vehicles destroyed'
+          'Pistole': '25 Double Kills',
+          'Launchery': '50 Equipment, killstreaks, or vehicles destroyed'
         }
       },
       {
@@ -470,7 +470,7 @@ export default new Vuex.Store({
             'ISO': '110 Kills while using all attachments',
             'CX-9': '110 Kills while using all attachments'
           },
-          'Shotgun': '25 Double Kills',
+          'Brokovnice': '25 Double Kills',
           'Light Machine Gun': '180 Kills while using all attachments',
           'Marksman Rifle': {
             'EBR-14': '50 Mounted Kills',
@@ -487,8 +487,8 @@ export default new Vuex.Store({
             'Kali Sticks': '50 Kills near smoke',
             'Dual Kodachis': '50 Kills near smoke'
           },
-          'Handgun': '110 Kills while using all attachments',
-          'Launcher': '50 Supportstreaks destroyed'
+          'Pistole': '110 Kills while using all attachments',
+          'Launchery': '50 Supportstreaks destroyed'
         }
       },
       {
@@ -507,7 +507,7 @@ export default new Vuex.Store({
             'ISO': '25 Kills shortly after reload',
             'CX-9': '25 Kills shortly after reload'
           },
-          'Shotgun': '30 Kills shortly after reload',
+          'Brokovnice': '30 Kills shortly after reload',
           'Light Machine Gun': '30 Double Kills',
           'Marksman Rifle': {
             'EBR-14': '25 Double Kills',
@@ -519,8 +519,8 @@ export default new Vuex.Store({
           },
           'Sniper Rifle': '25 Double Kills',
           'Melee': '10 Buzzkills',
-          'Handgun': '25 Kills shortly after reload',
-          'Launcher': '50 Killstreaks destroyed'
+          'Pistole': '25 Kills shortly after reload',
+          'Launchery': '50 Killstreaks destroyed'
         }
       },
       {
@@ -528,13 +528,13 @@ export default new Vuex.Store({
         requirements: {
           'Assault Rifle': '110 Kills while using no attachments',
           'Submachine Gun': '75 Kills while using no attachments',
-          'Shotgun': '110 Kills while using no attachments',
+          'Brokovnice': '110 Kills while using no attachments',
           'Light Machine Gun': '75 Kills while using no attachments',
           'Marksman Rifle': '75 Kills while using no attachments',
           'Sniper Rifle': '75 Kills while using no attachments',
           'Melee': '25 Finisher Kills',
-          'Handgun': '75 Kills while using no attachments',
-          'Launcher': '50 kills with Amped perk'
+          'Pistole': '75 Kills while using no attachments',
+          'Launchery': '50 kills with Amped perk'
         }
       },
       {
@@ -542,7 +542,7 @@ export default new Vuex.Store({
         requirements: {
           'Assault Rifle': '35 3-streaks',
           'Submachine Gun': '25 3-streaks',
-          'Shotgun': '30 3-streaks',
+          'Brokovnice': '30 3-streaks',
           'Light Machine Gun': '25 3-streaks',
           'Marksman Rifle': '25 3-streaks',
           'Sniper Rifle': '25 3-streaks',
@@ -552,8 +552,8 @@ export default new Vuex.Store({
             'Kali Sticks': '10 3-streaks',
             'Dual Kodachis': '10 3-streaks'
           },
-          'Handgun': '25 3-streaks',
-          'Launcher': '50 vehicles destroyed'
+          'Pistole': '25 3-streaks',
+          'Launchery': '50 vehicles destroyed'
         }
       },
       {
@@ -575,7 +575,7 @@ export default new Vuex.Store({
             'AS VAL': 'Kill 15 enemies in a match 200 times'
           },
           'Submachine Gun': 'Kill 15 enemies in a match 150 times',
-          'Shotgun': 'Kill 15 enemies in a match 150 times',
+          'Brokovnice': 'Kill 15 enemies in a match 150 times',
           'Light Machine Gun': 'Kill 15 enemies in a match 150 times',
           'Marksman Rifle': 'Kill 15 enemies in a match 150 times',
           'Sniper Rifle': 'Kill 15 enemies in a match 125 times',
@@ -585,8 +585,8 @@ export default new Vuex.Store({
             'Kali Sticks': 'Kill 10 enemies in a match 125 times',
             'Dual Kodachis': 'Kill 10 enemies in a match 125 times'
           },
-          'Handgun': 'Kill 15 enemies in a match 100 times',
-          'Launcher': {
+          'Pistole': 'Kill 15 enemies in a match 100 times',
+          'Launchery': {
             'RPG-7': 'Kill 5 enemies in a match 150 times',
             'PILA': 'Destroy a vehicle or Killstreak 100 times',
             'Strela-P': 'Destroy a vehicle or Killstreak 100 times',
@@ -605,17 +605,17 @@ export default new Vuex.Store({
           'Gold': {
             'Assault Rifle': 'Get 500 Kills',
             'Submachine Gun': 'Get 500 Kills',
-            'Shotgun': 'Get 500 Kills',
+            'Brokovnice': 'Get 500 Kills',
             'Light Machine Gun': 'Get 500 Kills',
             'Marksman Rifle': 'Get 500 Kills',
             'Sniper Rifle': 'Get 500 Kills',
             'Melee': 'Get 500 Kills',
-            'Handgun': 'Get 500 Kills'
+            'Pistole': 'Get 500 Kills'
           },
           'Damascus': {
             'Assault Rifle': 'Get 2000 Kills',
             'Submachine Gun': 'Get 2000 Kills',
-            'Shotgun': 'Get 2000 Kills',
+            'Brokovnice': 'Get 2000 Kills',
             'Light Machine Gun': 'Get 2000 Kills',
             'Marksman Rifle': 'Get 2000 Kills',
             'Sniper Rifle': 'Get 2000 Kills',
@@ -625,7 +625,7 @@ export default new Vuex.Store({
               'Kali Sticks': 'Get 2000 Kills',
               'Dual Kodachis': 'Get 2000 Kills'
             },
-            'Handgun': 'Get 2000 Kills'
+            'Pistole': 'Get 2000 Kills'
           }
         }
       },
@@ -635,10 +635,10 @@ export default new Vuex.Store({
         category: 'Vehicle Destruction',
         levels: {
           'Gold': {
-            'Launcher': 'Destroy 200 Vehicles or Killstreaks'
+            'Launchery': 'Destroy 200 Vehicles or Killstreaks'
           },
           'Damascus': {
-            'Launcher': 'Destroy 800 Vehicles or Killstreaks'
+            'Launchery': 'Destroy 800 Vehicles or Killstreaks'
           }
         }
       },
@@ -650,20 +650,20 @@ export default new Vuex.Store({
           'Platinum': {
             'Assault Rifle': 'Get 250 Headshots',
             'Submachine Gun': 'Get 250 Headshots',
-            'Shotgun': 'Get 250 Headshots',
+            'Brokovnice': 'Get 250 Headshots',
             'Light Machine Gun': 'Get 250 Headshots',
             'Marksman Rifle': 'Get 250 Headshots',
             'Sniper Rifle': 'Get 250 Headshots',
-            'Handgun': 'Get 250 Headshots'
+            'Pistole': 'Get 250 Headshots'
           },
           'Obsidian': {
             'Assault Rifle': 'Get 750 Headshots',
             'Submachine Gun': 'Get 750 Headshots',
-            'Shotgun': 'Get 750 Headshots',
+            'Brokovnice': 'Get 750 Headshots',
             'Light Machine Gun': 'Get 750 Headshots',
             'Marksman Rifle': 'Get 750 Headshots',
             'Sniper Rifle': 'Get 750 Headshots',
-            'Handgun': 'Get 750 Headshots'
+            'Pistole': 'Get 750 Headshots'
           }
         }
       },
@@ -695,7 +695,7 @@ export default new Vuex.Store({
               'Kali Sticks': 'Get a Double kill 100 times',
               'Dual Kodachis': 'Get a Double kill 100 times'
             },
-            'Launcher': 'Get a Double kill 75 times'
+            'Launchery': 'Get a Double kill 75 times'
           },
           'Obsidian': {
             'Melee': {
@@ -703,7 +703,7 @@ export default new Vuex.Store({
               'Kali Sticks': 'Get a Double kill 300 times',
               'Dual Kodachis': 'Get a Double kill 300 times'
             },
-            'Launcher': 'Get a Double kill 325 times'
+            'Launchery': 'Get a Double kill 325 times'
           }
         }
       },
@@ -739,7 +739,7 @@ export default new Vuex.Store({
               'Fennec': challengeReq(challengeTypes.adsLaser, 50),
               'ISO': challengeReq(challengeTypes.adsLaser, 50),
             },
-            'Shotgun': {
+            'Brokovnice': {
               'Model 680': challengeReq(challengeTypes.adsNoStock, 50),
               'R9-0': challengeReq(challengeTypes.adsLaser, 50),
               '725': challengeReq(challengeTypes.adsLaser, 50),
@@ -759,13 +759,13 @@ export default new Vuex.Store({
             'Marksman Rifle': challengeReq(challengeTypes.scoutLongshot, 5),
             'Sniper Rifle': challengeReq(challengeTypes.scoutLongshot, 5),
             'Melee':  challengeReq(challengeTypes.behindEnemy, 50),
-            'Handgun': challengeReq(challengeTypes.akimboReflex, 50),
-            'Launcher': challengeReq(challengeTypes.aerialVehicle, 20),
+            'Pistole': challengeReq(challengeTypes.akimboReflex, 50),
+            'Launchery': challengeReq(challengeTypes.aerialVehicle, 20),
           },
           'Platinum': {
             'Assault Rifle': challengeReq(challengeTypes.sliding, 50),
             'Submachine Gun': challengeReq(challengeTypes.sliding, 50),
-            'Shotgun': challengeReq(challengeTypes.sliding, 75),
+            'Brokovnice': challengeReq(challengeTypes.sliding, 75),
             'Light Machine Gun': challengeReq(challengeTypes.sliding, 25),
             'Marksman Rifle': {
               'EBR-14': challengeReq(challengeTypes.quickscope, 75),
@@ -782,13 +782,13 @@ export default new Vuex.Store({
               'Kali Sticks': challengeReq(challengeTypes.sliding, 25),
               'Dual Kodachis': challengeReq(challengeTypes.sliding, 25),
             },
-            'Handgun': challengeReq(challengeTypes.sliding, 30),
-            'Launcher': challengeReq(challengeTypes.buzzkill, 10),
+            'Pistole': challengeReq(challengeTypes.sliding, 30),
+            'Launchery': challengeReq(challengeTypes.buzzkill, 10),
           },
           'Damascus': {
             'Assault Rifle': challengeReq(challengeTypes.crouching, 75),
             'Submachine Gun': challengeReq(challengeTypes.inSmoke, 25),
-            'Shotgun': {
+            'Brokovnice': {
               'Model 680': challengeReq(challengeTypes.scoutOptic, 75),
               'R9-0': challengeReq(challengeTypes.scoutOptic, 75),
               '725': challengeReq(challengeTypes.sniperScope, 75),
@@ -807,13 +807,13 @@ export default new Vuex.Store({
             },
             'Sniper Rifle': challengeReq(challengeTypes.hipfire, 10),
             'Melee': challengeReq(challengeTypes.inSmoke, 75),
-            'Handgun': challengeReq(challengeTypes.inSmoke, 75),
-            'Launcher': challengeReq(challengeTypes.longshot, 20),
+            'Pistole': challengeReq(challengeTypes.inSmoke, 75),
+            'Launchery': challengeReq(challengeTypes.longshot, 20),
           },
           'Obsidian': {
             'Assault Rifle': challengeReq(challengeTypes.pointBlankHeadshot, 25, 4),
             'Submachine Gun': challengeReq(challengeTypes.slidingHeadshot, 5, 3),
-            'Shotgun': challengeReq(challengeTypes.inSmokeHeadshot, 10, 4),
+            'Brokovnice': challengeReq(challengeTypes.inSmokeHeadshot, 10, 4),
             'Light Machine Gun': challengeReq(challengeTypes.crouchingHeadshot, 25, 3),
             'Marksman Rifle': challengeReq(challengeTypes.mountedLongshot, 25, 2),
             'Sniper Rifle': challengeReq(challengeTypes.mountedLongshot, 25, 2),
@@ -823,8 +823,8 @@ export default new Vuex.Store({
               'Kali Sticks': challengeReq(challengeTypes.doubleKillTracker, 10),
               'Dual Kodachis': challengeReq(challengeTypes.doubleKillTracker, 10)
             },
-            'Handgun': challengeReq(challengeTypes.pointBlankHeadshot, 75, 3),
-            'Launcher': challengeReq(challengeTypes.doubleKillTracker, 10),
+            'Pistole': challengeReq(challengeTypes.pointBlankHeadshot, 75, 3),
+            'Launchery': challengeReq(challengeTypes.doubleKillTracker, 10),
           },
         }
       },
@@ -1184,7 +1184,7 @@ export default new Vuex.Store({
           }
         },
         {
-          category: 'Shotgun',
+          category: 'Brokovnice',
           alias: 'Alpha',
           name: 'Model 680',
           required: true,
@@ -1195,11 +1195,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Shotgun')
+            ...defaultChallenges('Brokovnice')
           }
         },
         {
-          category: 'Shotgun',
+          category: 'Brokovnice',
           alias: 'Bravo',
           name: 'R9-0',
           required: true,
@@ -1210,11 +1210,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Shotgun')
+            ...defaultChallenges('Brokovnice')
           }
         },
         {
-          category: 'Shotgun',
+          category: 'Brokovnice',
           alias: 'Charlie',
           name: '725',
           required: true,
@@ -1225,11 +1225,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Shotgun')
+            ...defaultChallenges('Brokovnice')
           }
         },
         {
-          category: 'Shotgun',
+          category: 'Brokovnice',
           alias: 'Delta',
           name: 'Origin 12',
           required: true,
@@ -1240,11 +1240,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Shotgun')
+            ...defaultChallenges('Brokovnice')
           }
         },
         {
-          category: 'Shotgun',
+          category: 'Brokovnice',
           alias: 'Echo',
           name: 'VLK Rogue',
           required: false,
@@ -1255,11 +1255,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Shotgun')
+            ...defaultChallenges('Brokovnice')
           }
         },
         {
-          category: 'Shotgun',
+          category: 'Brokovnice',
           alias: 'Foxtrot',
           name: 'JAK-12',
           required: false,
@@ -1270,7 +1270,7 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Shotgun')
+            ...defaultChallenges('Brokovnice')
           }
         },
         {
@@ -1604,7 +1604,7 @@ export default new Vuex.Store({
           }
         },
         {
-          category: 'Handgun',
+          category: 'Pistole',
           alias: 'Alpha',
           name: 'X16',
           required: true,
@@ -1615,11 +1615,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Handgun')
+            ...defaultChallenges('Pistole')
           }
         },
         {
-          category: 'Handgun',
+          category: 'Pistole',
           alias: 'Bravo',
           name: '1911',
           required: true,
@@ -1630,11 +1630,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Handgun')
+            ...defaultChallenges('Pistole')
           }
         },
         {
-          category: 'Handgun',
+          category: 'Pistole',
           alias: 'Charlie',
           name: '.357',
           required: true,
@@ -1645,11 +1645,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Handgun')
+            ...defaultChallenges('Pistole')
           }
         },
         {
-          category: 'Handgun',
+          category: 'Pistole',
           alias: 'Delta',
           name: 'M19',
           required: true,
@@ -1660,11 +1660,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Handgun')
+            ...defaultChallenges('Pistole')
           }
         },
         {
-          category: 'Handgun',
+          category: 'Pistole',
           alias: 'Echo',
           name: '.50 GS',
           required: true,
@@ -1675,11 +1675,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Handgun')
+            ...defaultChallenges('Pistole')
           }
         },
         {
-          category: 'Handgun',
+          category: 'Pistole',
           alias: 'Foxtrot',
           name: 'Renetti',
           required: false,
@@ -1690,11 +1690,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Handgun')
+            ...defaultChallenges('Pistole')
           }
         },
         {
-          category: 'Handgun',
+          category: 'Pistole',
           alias: 'Golf',
           name: 'Sykov',
           required: false,
@@ -1705,11 +1705,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Handgun')
+            ...defaultChallenges('Pistole')
           }
         },
         {
-          category: 'Launcher',
+          category: 'Launchery',
           alias: 'Alpha',
           name: 'PILA',
           required: true,
@@ -1720,11 +1720,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Launcher')
+            ...defaultChallenges('Launchery')
           }
         },
         {
-          category: 'Launcher',
+          category: 'Launchery',
           alias: 'Bravo',
           name: 'Strela-P',
           required: true,
@@ -1735,11 +1735,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Launcher')
+            ...defaultChallenges('Launchery')
           }
         },
         {
-          category: 'Launcher',
+          category: 'Launchery',
           alias: 'Charlie',
           name: 'JOKR',
           required: true,
@@ -1750,11 +1750,11 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Launcher')
+            ...defaultChallenges('Launchery')
           }
         },
         {
-          category: 'Launcher',
+          category: 'Launchery',
           alias: 'Delta',
           name: 'RPG-7',
           required: true,
@@ -1765,7 +1765,7 @@ export default new Vuex.Store({
             ...defaultMastery
           },
           challenges: {
-            ...defaultChallenges('Launcher')
+            ...defaultChallenges('Launchery')
           }
         }
       ],

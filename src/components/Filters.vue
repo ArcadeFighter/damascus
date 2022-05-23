@@ -1,9 +1,9 @@
 <template>
   <div class="filters">
     <div class="select" v-if="'category' in filters">
-      <label for="category">Category</label>
+      <label for="category">Kategorie</label>
       <select id="category" v-model="filters.category" @change="filterChange()">
-        <option value="null">All</option>
+        <option value="null">Všechny zbraně</option>
         <option v-for="(category, index) in categoryOptions" :key="index" :value="category">
           {{ category }}
         </option>
@@ -14,21 +14,21 @@
     <div class="checkbox" v-if="'hideCompleted' in filters">
       <label for="hideCompleted" :class="{ checked: filters.hideCompleted }">
         <input id="hideCompleted" type="checkbox" v-model="filters.hideCompleted" @change="filterChange()">
-        <span>Hide completed</span>
+        <span>Schovat splněné</span>
       </label>
     </div>
 
     <div class="checkbox" v-if="'hideNonRequired' in filters">
       <label for="hideNonRequired" :class="{ checked: filters.hideNonRequired }">
         <input id="hideNonRequired" type="checkbox" v-model="filters.hideNonRequired" @change="filterChange()">
-        <span>Hide non required</span>
+        <span>Schovat nevyžadované</span>
       </label>
     </div>
 
     <div class="symbols" v-if="showSymbols">
       <div class="symbol damascus" v-if="showSymbols.includes('damascus')">
         <span></span>
-        <p>Required for Damascus</p>
+        <p>Potřebné pro Damascus</p>
       </div>
     </div>
   </div>

@@ -14,7 +14,7 @@ import TotalProgress from '@/components/TotalProgress.vue'
 import Weapons from '@/components/Weapons.vue'
 
 export default {
-  name: 'Home',
+  name: 'Domů',
 
   components: {
     Filters,

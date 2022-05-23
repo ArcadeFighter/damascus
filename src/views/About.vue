@@ -1,8 +1,8 @@
 <template>
   <transition name="fade">
     <div class="about container" v-show="show">
-      <h3>Simple, lightweight &amp; intuitive</h3>
-      <p>Keep track of your progress to the sought after Damascus camouflage with this easy-to-use tracker.</p>
+      <h3>Jednoduchý, lehký a intuitivní tracker na kamufláže, reticly a Master Challenge z Call of Duty: Modern Warfare (2019)</h3>
+      <p>Sleduj svůj progress Damascus kamufláž, Reticle nebo Mastery challenge s tímto jednoduchým trackerem.</p>
 
       <div class="features">
         <div class="feature" v-for="feature in features" :key="feature.title">
@@ -12,17 +12,17 @@
         </div>
       </div>
 
-      <h4>Open source</h4>
-      <p>Built with <a href="https://vuejs.org/">Vue</a>, hosted on <a href="https://vercel.com/">Vercel</a> and analytics by <a href="https://plausible.io/">Plausible</a>. The code to this site is available on <a href="https://github.com/carlssonemil/damascus">GitHub</a>.</p>
+      <h4>Je to Open source</h4>
+      <p>Aplikace je postavena na <a href="https://vuejs.org/">Vue</a> a hostovaná na <a href="https://vercel.com/">Vercel</a>. Kód stránky je dostupný na <a href="https://github.com/carlssonemil/damascus">GitHubu</a>.</p>
     
-      <h4>DM Ultra & Dark Aether</h4>
-      <p>Looking for a camouflage tracker for <i>Call of Duty: Black Ops Cold War (2020)</i>? <a href="https://coldwar.vercel.app">Check it out here</a>.</p>
+      <h4>Tracker pro DM Ultra a Dark Aether</h4>
+      <p>Hledáš tracker na kamufláže z <i>Call of Duty: Black Ops Cold War</i>? Najdeš ho <a href="https://coldwar.arcadex.cz">TADY</a>.</p>
     
-      <h4>Atomic & Dark Aether</h4>
-      <p>Looking for a camouflage tracker for <i>Call of Duty: Vanguard (2021)</i>? <a href="https://vanguard.emca.app">Check it out here</a>.</p>
+      <h4>Tracker pro Atomic a Dark Aether</h4>
+      <p>Hledáš tracker na kamufláže z <i>Call of Duty: Vanguard</i>? Najdeš ho <a href="https://vanguard.arcadex.cz">TADY</a>.</p>
 
-      <h4>Support me</h4>
-      <p>You can support me by <a href="https://www.buymeacoffee.com/emilcarlsson">buying me a beer</a>! 🍺</p>
+      <h4>Připoj se na náš Discord</h4>
+      <p>Chceš vědět víc informací o Call of Duty? Tak se připoj na náš <a href="https://discord.gg/adisbak">Discord</a>! Buď součástí velké Call of Duty komunity!</p>
     </div>
   </transition>
 </template>
@@ -36,18 +36,18 @@ export default {
       show: false,
       features: [
         {
-          title: 'Autosaving',
-          description: 'Your progress is automatically saved and stored.',
+          title: 'Automatické ukládání',
+          description: 'Tvůj progress se automaticky úkladá.',
           icon: 'save-outline'
         },
         {
-          title: 'Responsive',
-          description: 'Use it on your smartphone while gaming.',
+          title: 'Responzivní',
+          description: 'Můžeš použít i svůj telefon na tento tracker.',
           icon: 'smartphone-outline'
         },
         {
           title: 'Export/Import',
-          description: 'Export your progress to another device or browser.',
+          description: 'Exportuj svůj progress do jiného zařízení nebo prohlížeče.',
           icon: 'external-link-outline'
         }
       ]
