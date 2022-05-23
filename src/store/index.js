@@ -242,7 +242,7 @@ function challengeReq(strings, count, attachCount) {
   return `${attachPrefix}${strings[0]} ${count} ${strings[1]}`;
 }
 
-const challenDátypes = {
+const challengeTypes = {
   adsNoStock: ['Dát', 'Aiming Down Sight Killů with the No Stock attachment option selected'],
   adsFoldedStock: ['Dát', 'Aiming Down Sight Killů with the Folded Stock selected'],
   adsLaser: ['Dát', 'Killů while Aiming Down Sights and using a Laser attachment'],
@@ -375,7 +375,7 @@ export default new Vuex.Store({
           'Sniper Rifle': '50 One Shot Killů',
           'Melee': '30 Killů while using Dead Silence',
           'Pistole': '30 Hipfire Killů',
-          'Launchery': '75 Aerial Killůtreaks Zničited'
+          'Launchery': '75 Aerial Killůtreaks Zničit'
         }
       },
       {
@@ -414,7 +414,7 @@ export default new Vuex.Store({
           'Sniper Rifle': '150 Killů while using all attachments',
           'Melee': '50 Crouching Killů',
           'Pistole': '30 Longshot Killů',
-          'Launchery': '75 Ground vehicles Zničited'
+          'Launchery': '75 Ground vehicles Zničit'
         }
       },
       {
@@ -451,7 +451,7 @@ export default new Vuex.Store({
             'Dual Kodachis': '25 Double Killů'
           },
           'Pistole': '25 Double Killů',
-          'Launchery': '50 Equipment, Killůtreaks, or vehicles Zničited'
+          'Launchery': '50 Equipment, Killůtreaks, or vehicles Zničit'
         }
       },
       {
@@ -488,7 +488,7 @@ export default new Vuex.Store({
             'Dual Kodachis': '50 Killů near smoke'
           },
           'Pistole': '110 Killů while using all attachments',
-          'Launchery': '50 Supportstreaks Zničited'
+          'Launchery': '50 Supportstreaks Zničit'
         }
       },
       {
@@ -520,7 +520,7 @@ export default new Vuex.Store({
           'Sniper Rifle': '25 Double Killů',
           'Melee': '10 BuzzKillů',
           'Pistole': '25 Killů shortly after reload',
-          'Launchery': '50 Killůtreaks Zničited'
+          'Launchery': '50 Killůtreaks Zničit'
         }
       },
       {
@@ -553,7 +553,7 @@ export default new Vuex.Store({
             'Dual Kodachis': '10 3-streaks'
           },
           'Pistole': '25 3-streaks',
-          'Launchery': '50 vehicles Zničited'
+          'Launchery': '50 vehicles Zničit'
         }
       },
       {
@@ -714,117 +714,117 @@ export default new Vuex.Store({
         levels: {
           'Gold': {
             'Assault Rifle': {
-              'Kilo 141':challengeReq(challenDátypes.adsNoStock, 75),
-              'FAL': challengeReq(challenDátypes.adsNoStock, 75),
-              'M4A1': challengeReq(challenDátypes.adsNoStock, 75),
-              'FR 5.56': challengeReq(challenDátypes.adsLaser, 75),
-              'Oden': challengeReq(challenDátypes.adsLaser, 75),
-              'M13': challengeReq(challenDátypes.adsNoStock, 75),
-              'FN Scar 17': challengeReq(challenDátypes.adsLaser, 75),
-              'AK-47': challengeReq(challenDátypes.adsNoStock, 75),
-              'RAM-7': challengeReq(challenDátypes.adsLaser, 75),
-              'Grau 5.56': challengeReq(challenDátypes.adsNoStock, 75),
-              'CR-56 AMAX': challengeReq(challenDátypes.adsNoStock, 75),
-              'AN-94': challengeReq(challenDátypes.adsFoldedStock, 75),
-              'AS VAL': challengeReq(challenDátypes.adsNoStock, 75),
+              'Kilo 141':challengeReq(challengeTypes.adsNoStock, 75),
+              'FAL': challengeReq(challengeTypes.adsNoStock, 75),
+              'M4A1': challengeReq(challengeTypes.adsNoStock, 75),
+              'FR 5.56': challengeReq(challengeTypes.adsLaser, 75),
+              'Oden': challengeReq(challengeTypes.adsLaser, 75),
+              'M13': challengeReq(challengeTypes.adsNoStock, 75),
+              'FN Scar 17': challengeReq(challengeTypes.adsLaser, 75),
+              'AK-47': challengeReq(challengeTypes.adsNoStock, 75),
+              'RAM-7': challengeReq(challengeTypes.adsLaser, 75),
+              'Grau 5.56': challengeReq(challengeTypes.adsNoStock, 75),
+              'CR-56 AMAX': challengeReq(challengeTypes.adsNoStock, 75),
+              'AN-94': challengeReq(challengeTypes.adsFoldedStock, 75),
+              'AS VAL': challengeReq(challengeTypes.adsNoStock, 75),
             },
             'Submachine Gun': {
-              'AUG': challengeReq(challenDátypes.adsLaser, 50),
-              'P90': challengeReq(challenDátypes.adsLaser, 50),
-              'MP5': challengeReq(challenDátypes.adsLaser, 50),
-              'Uzi': challengeReq(challenDátypes.adsNoStock, 50),
-              'PP19 Bizon': challengeReq(challenDátypes.adsNoStock, 50),
-              'MP7': challengeReq(challenDátypes.adsNoStock, 50),
-              'Striker 45': challengeReq(challenDátypes.adsLaser, 50),
-              'Fennec': challengeReq(challenDátypes.adsLaser, 50),
-              'ISO': challengeReq(challenDátypes.adsLaser, 50),
+              'AUG': challengeReq(challengeTypes.adsLaser, 50),
+              'P90': challengeReq(challengeTypes.adsLaser, 50),
+              'MP5': challengeReq(challengeTypes.adsLaser, 50),
+              'Uzi': challengeReq(challengeTypes.adsNoStock, 50),
+              'PP19 Bizon': challengeReq(challengeTypes.adsNoStock, 50),
+              'MP7': challengeReq(challengeTypes.adsNoStock, 50),
+              'Striker 45': challengeReq(challengeTypes.adsLaser, 50),
+              'Fennec': challengeReq(challengeTypes.adsLaser, 50),
+              'ISO': challengeReq(challengeTypes.adsLaser, 50),
             },
             'Brokovnice': {
-              'Model 680': challengeReq(challenDátypes.adsNoStock, 50),
-              'R9-0': challengeReq(challenDátypes.adsLaser, 50),
-              '725': challengeReq(challenDátypes.adsLaser, 50),
-              'Origin 12': challengeReq(challenDátypes.adsNoStock, 50),
-              'VLK Rogue': challengeReq(challenDátypes.adsNoStock, 50),
-              'JAK-12': challengeReq(challenDátypes.adsNoStock, 50),
+              'Model 680': challengeReq(challengeTypes.adsNoStock, 50),
+              'R9-0': challengeReq(challengeTypes.adsLaser, 50),
+              '725': challengeReq(challengeTypes.adsLaser, 50),
+              'Origin 12': challengeReq(challengeTypes.adsNoStock, 50),
+              'VLK Rogue': challengeReq(challengeTypes.adsNoStock, 50),
+              'JAK-12': challengeReq(challengeTypes.adsNoStock, 50),
             },
             'Light Machine Gun': {
-              'PKM': challengeReq(challenDátypes.adsNoStock, 50),
-              'SA87': challengeReq(challenDátypes.adsLaser, 50),
-              'M91': challengeReq(challenDátypes.adsNoStock, 50),
-              'MG34': challengeReq(challenDátypes.adsNoStock, 50),
-              'Holger-26': challengeReq(challenDátypes.adsNoStock, 50),
-              'Bruen Mk9': challengeReq(challenDátypes.adsNoStock, 50),
-              'FiNN': challengeReq(challenDátypes.adsNoStock, 50),
+              'PKM': challengeReq(challengeTypes.adsNoStock, 50),
+              'SA87': challengeReq(challengeTypes.adsLaser, 50),
+              'M91': challengeReq(challengeTypes.adsNoStock, 50),
+              'MG34': challengeReq(challengeTypes.adsNoStock, 50),
+              'Holger-26': challengeReq(challengeTypes.adsNoStock, 50),
+              'Bruen Mk9': challengeReq(challengeTypes.adsNoStock, 50),
+              'FiNN': challengeReq(challengeTypes.adsNoStock, 50),
             },
-            'Marksman Rifle': challengeReq(challenDátypes.scoutLongshot, 5),
-            'Sniper Rifle': challengeReq(challenDátypes.scoutLongshot, 5),
-            'Melee':  challengeReq(challenDátypes.behindEnemy, 50),
-            'Pistole': challengeReq(challenDátypes.akimboReflex, 50),
-            'Launchery': challengeReq(challenDátypes.aerialVehicle, 20),
+            'Marksman Rifle': challengeReq(challengeTypes.scoutLongshot, 5),
+            'Sniper Rifle': challengeReq(challengeTypes.scoutLongshot, 5),
+            'Melee':  challengeReq(challengeTypes.behindEnemy, 50),
+            'Pistole': challengeReq(challengeTypes.akimboReflex, 50),
+            'Launchery': challengeReq(challengeTypes.aerialVehicle, 20),
           },
           'Platinum': {
-            'Assault Rifle': challengeReq(challenDátypes.sliding, 50),
-            'Submachine Gun': challengeReq(challenDátypes.sliding, 50),
-            'Brokovnice': challengeReq(challenDátypes.sliding, 75),
-            'Light Machine Gun': challengeReq(challenDátypes.sliding, 25),
+            'Assault Rifle': challengeReq(challengeTypes.sliding, 50),
+            'Submachine Gun': challengeReq(challengeTypes.sliding, 50),
+            'Brokovnice': challengeReq(challengeTypes.sliding, 75),
+            'Light Machine Gun': challengeReq(challengeTypes.sliding, 25),
             'Marksman Rifle': {
-              'EBR-14': challengeReq(challenDátypes.quickscope, 75),
-              'MK2 Carbine': challengeReq(challenDátypes.quickscope, 75),
-              'Kar98k': challengeReq(challenDátypes.quickscope, 75),
-              'Crossbow': challengeReq(challenDátypes.quickscope, 25),
-              'SKS': challengeReq(challenDátypes.quickscope, 75),
-              'SP-R 208': challengeReq(challenDátypes.quickscope, 75)
+              'EBR-14': challengeReq(challengeTypes.quickscope, 75),
+              'MK2 Carbine': challengeReq(challengeTypes.quickscope, 75),
+              'Kar98k': challengeReq(challengeTypes.quickscope, 75),
+              'Crossbow': challengeReq(challengeTypes.quickscope, 25),
+              'SKS': challengeReq(challengeTypes.quickscope, 75),
+              'SP-R 208': challengeReq(challengeTypes.quickscope, 75)
             },
-            'Sniper Rifle': challengeReq(challenDátypes.quickscope, 75),
+            'Sniper Rifle': challengeReq(challengeTypes.quickscope, 75),
             'Melee': {
-              'Combat Knife': challengeReq(challenDátypes.sliding, 25),
-              'Riot Shield': challengeReq(challenDátypes.buzzkill, 25),
-              'Kali Sticks': challengeReq(challenDátypes.sliding, 25),
-              'Dual Kodachis': challengeReq(challenDátypes.sliding, 25),
+              'Combat Knife': challengeReq(challengeTypes.sliding, 25),
+              'Riot Shield': challengeReq(challengeTypes.buzzkill, 25),
+              'Kali Sticks': challengeReq(challengeTypes.sliding, 25),
+              'Dual Kodachis': challengeReq(challengeTypes.sliding, 25),
             },
-            'Pistole': challengeReq(challenDátypes.sliding, 30),
-            'Launchery': challengeReq(challenDátypes.buzzkill, 10),
+            'Pistole': challengeReq(challengeTypes.sliding, 30),
+            'Launchery': challengeReq(challengeTypes.buzzkill, 10),
           },
           'Damascus': {
-            'Assault Rifle': challengeReq(challenDátypes.crouching, 75),
-            'Submachine Gun': challengeReq(challenDátypes.inSmoke, 25),
+            'Assault Rifle': challengeReq(challengeTypes.crouching, 75),
+            'Submachine Gun': challengeReq(challengeTypes.inSmoke, 25),
             'Brokovnice': {
-              'Model 680': challengeReq(challenDátypes.scoutOptic, 75),
-              'R9-0': challengeReq(challenDátypes.scoutOptic, 75),
-              '725': challengeReq(challenDátypes.sniperScope, 75),
-              'Origin 12': challengeReq(challenDátypes.scoutOptic, 75),
-              'VLK Rogue': challengeReq(challenDátypes.scoutOptic, 75),
-              'JAK-12': challengeReq(challenDátypes.scoutOptic, 75),
+              'Model 680': challengeReq(challengeTypes.scoutOptic, 75),
+              'R9-0': challengeReq(challengeTypes.scoutOptic, 75),
+              '725': challengeReq(challengeTypes.sniperScope, 75),
+              'Origin 12': challengeReq(challengeTypes.scoutOptic, 75),
+              'VLK Rogue': challengeReq(challengeTypes.scoutOptic, 75),
+              'JAK-12': challengeReq(challengeTypes.scoutOptic, 75),
             },
-            'Light Machine Gun': challengeReq(challenDátypes.hipfire, 25),
+            'Light Machine Gun': challengeReq(challengeTypes.hipfire, 25),
             'Marksman Rifle': {
-              'EBR-14': challengeReq(challenDátypes.hipfire, 10),
-              'MK2 Carbine': challengeReq(challenDátypes.hipfire, 10),
-              'Kar98k': challengeReq(challenDátypes.hipfire, 10),
-              'Crossbow': challengeReq(challenDátypes.hipfire, 75),
-              'SKS': challengeReq(challenDátypes.hipfire, 75),
-              'SP-R 208': challengeReq(challenDátypes.hipfire, 75)
+              'EBR-14': challengeReq(challengeTypes.hipfire, 10),
+              'MK2 Carbine': challengeReq(challengeTypes.hipfire, 10),
+              'Kar98k': challengeReq(challengeTypes.hipfire, 10),
+              'Crossbow': challengeReq(challengeTypes.hipfire, 75),
+              'SKS': challengeReq(challengeTypes.hipfire, 75),
+              'SP-R 208': challengeReq(challengeTypes.hipfire, 75)
             },
-            'Sniper Rifle': challengeReq(challenDátypes.hipfire, 10),
-            'Melee': challengeReq(challenDátypes.inSmoke, 75),
-            'Pistole': challengeReq(challenDátypes.inSmoke, 75),
-            'Launchery': challengeReq(challenDátypes.longshot, 20),
+            'Sniper Rifle': challengeReq(challengeTypes.hipfire, 10),
+            'Melee': challengeReq(challengeTypes.inSmoke, 75),
+            'Pistole': challengeReq(challengeTypes.inSmoke, 75),
+            'Launchery': challengeReq(challengeTypes.longshot, 20),
           },
           'Obsidian': {
-            'Assault Rifle': challengeReq(challenDátypes.pointBlankHeadshot, 25, 4),
-            'Submachine Gun': challengeReq(challenDátypes.slidingHeadshot, 5, 3),
-            'Brokovnice': challengeReq(challenDátypes.inSmokeHeadshot, 10, 4),
-            'Light Machine Gun': challengeReq(challenDátypes.crouchingHeadshot, 25, 3),
-            'Marksman Rifle': challengeReq(challenDátypes.mountedLongshot, 25, 2),
-            'Sniper Rifle': challengeReq(challenDátypes.mountedLongshot, 25, 2),
+            'Assault Rifle': challengeReq(challengeTypes.pointBlankHeadshot, 25, 4),
+            'Submachine Gun': challengeReq(challengeTypes.slidingHeadshot, 5, 3),
+            'Brokovnice': challengeReq(challengeTypes.inSmokeHeadshot, 10, 4),
+            'Light Machine Gun': challengeReq(challengeTypes.crouchingHeadshot, 25, 3),
+            'Marksman Rifle': challengeReq(challengeTypes.mountedLongshot, 25, 2),
+            'Sniper Rifle': challengeReq(challengeTypes.mountedLongshot, 25, 2),
             'Melee': {
-              'Combat Knife': challengeReq(challenDátypes.doubleKillTracker, 10),
-              'Riot Shield': challengeReq(challenDátypes.threeStreakTracker, 3),
-              'Kali Sticks': challengeReq(challenDátypes.doubleKillTracker, 10),
-              'Dual Kodachis': challengeReq(challenDátypes.doubleKillTracker, 10)
+              'Combat Knife': challengeReq(challengeTypes.doubleKillTracker, 10),
+              'Riot Shield': challengeReq(challengeTypes.threeStreakTracker, 3),
+              'Kali Sticks': challengeReq(challengeTypes.doubleKillTracker, 10),
+              'Dual Kodachis': challengeReq(challengeTypes.doubleKillTracker, 10)
             },
-            'Pistole': challengeReq(challenDátypes.pointBlankHeadshot, 75, 3),
-            'Launchery': challengeReq(challenDátypes.doubleKillTracker, 10),
+            'Pistole': challengeReq(challengeTypes.pointBlankHeadshot, 75, 3),
+            'Launchery': challengeReq(challengeTypes.doubleKillTracker, 10),
           },
         }
       },
@@ -2270,28 +2270,28 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    async DátStoredData({ dispatch }) {
-      await dispatch('DátProgress');
-      await dispatch('DátFilters');
-      await dispatch('DátReticles');
+    async getStoredData({ dispatch }) {
+      await dispatch('getProgress');
+      await dispatch('getFilters');
+      await dispatch('getReticles');
 
       await dispatch('storeData');
     },
 
-    DátProgress(context) {
-      const data = JSON.parse(localStorage.DátItem(token));
+    getProgress(context) {
+      const data = JSON.parse(localStorage.getItem(token));
       const weapons = data ? data.weapons : null;
       context.commit('SET_PROGRESS', weapons);
     },
 
-    DátFilters(context) {
-      const data = JSON.parse(localStorage.DátItem(token));
+    getFilters(context) {
+      const data = JSON.parse(localStorage.getItem(token));
       const filters = data ? data.filters : null;
       context.commit('SET_FILTERS', { type: null, filters });
     },
 
-    DátReticles(context) {
-      const data = JSON.parse(localStorage.DátItem(token));
+    getReticles(context) {
+      const data = JSON.parse(localStorage.getItem(token));
       const reticles = data ? data.reticles : null;
       context.commit('SET_RETICLES', reticles);
     },
