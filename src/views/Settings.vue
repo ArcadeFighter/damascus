@@ -55,22 +55,22 @@ export default {
           action: 'importProgress'
         },
         {
-          name: 'Resetovat progress kamufláží',
-          description: 'Reset your current camouflage progress.',
+          name: 'Resetovat progress Damascus kamufláže',
+            description: 'Resetuje tvůj aktuální progress Damascus kamufláže.',
           warning: 'Tato akce je nevratná.',
           action: 'resetProgress',
           button: 'Resetovat progress'
         },
         {
           name: 'Resetovat progress reticlů',
-          description: 'Reset your current reticles progress.',
+          description: 'Resetuje tvůj aktuální progress reticlů.',
           warning: 'Tato akce je nevratná.',
           action: 'resetReticles',
           button: 'Resetovat progress'
         },
         {
           name: 'Resetovat progress Master Challenges',
-          description: 'Reset your current Master Challenges progress.',
+          description: 'Resetuje tvůj aktuální progress Mastery Challenge.',
           warning: 'Tato akce je nevratná.',
           action: 'resetChallenges',
           button: 'Resetovat progress'

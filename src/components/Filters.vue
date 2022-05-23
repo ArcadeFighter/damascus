@@ -3,7 +3,7 @@
     <div class="select" v-if="'category' in filters">
       <label for="category">Kategorie</label>
       <select id="category" v-model="filters.category" @change="filterChange()">
-        <option value="null">Všechny zbraně</option>
+        <option value="null">Všechny</option>
         <option v-for="(category, index) in categoryOptions" :key="index" :value="category">
           {{ category }}
         </option>
