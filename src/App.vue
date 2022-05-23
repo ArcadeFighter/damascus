@@ -2,7 +2,7 @@
   <div id="app" :style="{ overflowY: mobileNav ? 'hidden' : null }">
     <transition name="slidedown">
       <div class="notice" v-if="showNotice">
-        <p>If you like this site, show your appreciation by <a href="https://www.buymeacoffee.com/emilcarlsson">buying me a beer</a> 🍺</p>
+        <p>Připoj se na náš <a href="https://discord.gg/adisbak">Discord</a></p>
         <eva-icon name="close" fill="white" width="16" height="16" @click="showNotice = false"></eva-icon>
       </div>
     </transition>
@@ -12,13 +12,13 @@
         <div class="icon-container">
           <img src="./assets/damascus.png">
         </div>
-        <p><span>Damascus</span></p>
+        <p><span>Modern Warfare (2019)</span></p>
       </router-link>
       <div>
-        <router-link to="/">Camouflages</router-link>
-        <router-link to="/reticles">Reticles</router-link>
-        <router-link to="/challenges">Master Challenges</router-link>
-        <router-link to="/settings" class="icon" content="Settings" v-tippy="{ placement: 'bottom' }">
+        <router-link to="/">Kamufláže</router-link>
+        <router-link to="/reticles">Reticly</router-link>
+        <router-link to="/challenges">Master Challenge</router-link>
+        <router-link to="/settings" class="icon" content="Nastavení" v-tippy="{ placement: 'bottom' }">
           <eva-icon name="settings-2-outline" fill="white"></eva-icon>
         </router-link>
       </div>
@@ -32,30 +32,30 @@
             <div class="icon-container">
               <img src="./assets/damascus.png">
             </div>
-            <p><span>Damascus</span></p>
+            <p><span>Modern Warfare (2019)</span></p>
           </router-link>
           <eva-icon name="close" fill="white" @click="mobileNav = !mobileNav"></eva-icon>
         </div>
         <div>
-          <router-link to="/">Camouflages</router-link>
-          <router-link to="/reticles">Reticles</router-link>
-          <router-link to="/challenges">Master Challenges</router-link>
+          <router-link to="/">Kamufláže</router-link>
+          <router-link to="/reticles">Reticly</router-link>
+          <router-link to="/challenges">Master Challenge</router-link>
         </div>
         <div class="footer">
-          <router-link to="/settings">Settings</router-link>
-          <router-link to="/about">About</router-link>
+          <router-link to="/settings">Nastavení</router-link>
+          <router-link to="/about">Informace</router-link>
           <a href="https://github.com/carlssonemil/damascus">GitHub</a>
 
           <div class="info">
             <div>
-              <p>Looking for other camouflage trackers? 😎</p>
+              <p>Hledáš jiný trackery na kamufláže? 😎</p>
 
               <div class="buttons">
-                <a href="https://coldwar.vercel.app/">
+                <a href="https://coldwar.arcadex.cz/>
                   <img :src="require(`./assets/coldwar.png`)">
                   <span>Cold War</span>
                 </a>
-                <a href="https://vanguard.emca.app/">
+                <a href="https://vanguard.arcadex.cz/">
                   <img :src="require(`./assets/vanguard.png`)">
                   <span>Vanguard</span>
                 </a>
@@ -73,10 +73,11 @@
     </main>
 
     <footer class="container">
-      <div>Made by <a href="https://emilcarlsson.se/">Emil Carlsson</a></div>
+      <div>Vytvořil <a href="https://emilcarlsson.se/">Emil Carlsson</a></div>
+      <div>Upravil <a href="https://twitch.tv/arcade0x">Arcade0X</a></div>
       
       <div>
-        <router-link to="/about">About</router-link>
+        <router-link to="/about">Informace</router-link>
         <a href="https://github.com/carlssonemil/damascus">GitHub</a>
       </div>
     </footer>
